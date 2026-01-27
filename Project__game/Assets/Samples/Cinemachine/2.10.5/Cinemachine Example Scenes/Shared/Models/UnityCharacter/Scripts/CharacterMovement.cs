@@ -20,6 +20,8 @@ namespace Cinemachine.Examples
 
         void Start()
         {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
             anim = GetComponent<Animator>();
 #if UNITY_6000_0_OR_NEWER
             anim.updateMode = AnimatorUpdateMode.Fixed;
@@ -36,28 +38,42 @@ namespace Cinemachine.Examples
 
         void Update()
         {
-    #if ENABLE_LEGACY_INPUT_MANAGER
-            input.x = Input.GetAxis("Horizontal");
-            input.y = Input.GetAxis("Vertical");
+            if (Cursor.lockState == CursorLockMode.Locked)
+            {
+#if ENABLE_LEGACY_INPUT_MANAGER
+                input.x = Input.GetAxis("Horizontal");
+                input.y = Input.GetAxis("Vertical");
 
-            // set speed to both vertical and horizontal inputs
-            if (useCharacterForward)
-                speed = Mathf.Abs(input.x) + input.y;
-            else
-                speed = Mathf.Abs(input.x) + Mathf.Abs(input.y);
+                // set speed to both vertical and horizontal inputs
+                if (useCharacterForward)
+                    speed = Mathf.Abs(input.x) + input.y;
+                else
+                    speed = Mathf.Abs(input.x) + Mathf.Abs(input.y);
 
-            speed = Mathf.Clamp(speed, 0f, 1f);
-            speed = Mathf.SmoothDamp(anim.GetFloat("Speed"), speed, ref velocity, 0.1f);
+                speed = Mathf.Clamp(speed, 0f, 1f);
+                speed = Mathf.SmoothDamp(anim.GetFloat("Speed"), speed, ref velocity, 0.1f);
 
-            if (input.y < 0f && useCharacterForward)
-                direction = input.y;
-            else
-                direction = 0f;
+                if (input.y < 0f && useCharacterForward)
+                    direction = input.y;
+                else
+                    direction = 0f;
 
-            isSprinting = (Input.GetKey(sprintJoystick) || Input.GetKey(sprintKeyboard)) && input != Vector2.zero && direction >= 0f;
-    #else
+                isSprinting = (Input.GetKey(sprintJoystick) || Input.GetKey(sprintKeyboard)) && input != Vector2.zero && direction >= 0f;
+#else
             InputSystemHelper.EnableBackendsWarningMessage();
-    #endif
+#endif
+            }
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+            }
+
+            if (Input.GetKeyDown(KeyCode.Mouse0))
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
         }
 
         // Interact with Rigidbody only in FixedUpdate
