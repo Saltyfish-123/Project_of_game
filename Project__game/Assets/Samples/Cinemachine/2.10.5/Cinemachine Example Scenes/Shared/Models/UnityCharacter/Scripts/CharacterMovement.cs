@@ -36,8 +36,8 @@ namespace Cinemachine.Examples
 
         void Update()
         {
-            //if (Cursor.lockState == CursorLockMode.Locked)
-            //{
+            if (Cursor.lockState == CursorLockMode.Locked)
+            {
 #if ENABLE_LEGACY_INPUT_MANAGER
                 input.x = Input.GetAxis("Horizontal");
                 input.y = Input.GetAxis("Vertical");
@@ -60,19 +60,19 @@ namespace Cinemachine.Examples
 #else
             InputSystemHelper.EnableBackendsWarningMessage();
 #endif
+        }
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
             }
-        //    if (Input.GetKeyDown(KeyCode.Escape))
-        //    {
-        //        Cursor.lockState = CursorLockMode.None;
-        //        Cursor.visible = true;
-        //    }
 
-        //    if (Input.GetKeyDown(KeyCode.Mouse0))
-        //    {
-        //        Cursor.lockState = CursorLockMode.Locked;
-        //        Cursor.visible = false;
-        //    }
-        //}
+            if (Input.GetKeyDown(KeyCode.Mouse1))
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
+        }
 
         // Interact with Rigidbody only in FixedUpdate
         void FixedUpdate()
