@@ -14,6 +14,10 @@ public class LoadManger : MonoBehaviour
     [SerializeField] GameObject StartInterface;
     [SerializeField] int loadIndex;
 
+    [Header("Other Buttons")]
+    [SerializeField] Button button1;
+    [SerializeField] Button button2;
+    [SerializeField] Button button3;
     public void LoadNextLevel()
     {
         StartCoroutine(LoadScene());
@@ -24,6 +28,11 @@ public class LoadManger : MonoBehaviour
         loadScreen.SetActive(true);
         ChoseInterface.SetActive(false);
         StartInterface.SetActive(false);
+
+        button1.gameObject.SetActive(false);
+        button2.gameObject.SetActive(false);
+        button3 .gameObject.SetActive(false);
+
 
         //加载下一个场景
         AsyncOperation operation = SceneManager.LoadSceneAsync(loadIndex);
