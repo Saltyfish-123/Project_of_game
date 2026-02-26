@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1937583228167373190}
   - component: {fileID: 160603852711519273}
   m_Layer: 0
-  m_Name: "\u4E0A\u9762\u7684\u5F2F\u52003"
+  m_Name: "\u680F\u6746\u4E0B\u5F2F\u52003"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102,7 +102,7 @@ MonoBehaviour:
   useGridSnap: 0
   gridSize: 1
   rotationSpeed: 90
-  pitchClamp: 80
+  pitchClamp: 180
   snapRotationAngle: 45
   isPlaced: 0
   snappedPoint: {fileID: 0}

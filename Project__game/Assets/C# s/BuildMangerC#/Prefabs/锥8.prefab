@@ -102,7 +102,7 @@ MonoBehaviour:
   useGridSnap: 0
   gridSize: 1
   rotationSpeed: 90
-  pitchClamp: 80
+  pitchClamp: 180
   snapRotationAngle: 45
   isPlaced: 0
   snappedPoint: {fileID: 0}
