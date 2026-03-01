@@ -32,7 +32,7 @@ public class FirstPlayercontroll : MonoBehaviour
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
         }
-        else if (Input.GetMouseButtonDown(0) && Cursor.lockState == CursorLockMode.None)
+        else if (Input.GetMouseButtonDown(1) && Cursor.lockState == CursorLockMode.None)
         {
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;

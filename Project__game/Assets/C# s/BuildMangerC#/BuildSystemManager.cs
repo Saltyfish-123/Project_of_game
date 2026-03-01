@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public enum BuildState
 {
@@ -36,6 +37,9 @@ public class BuildSystemManager : MonoBehaviour
     public List<SnapPointSlot> snapPointsForBuildQueue = new List<SnapPointSlot>();
     private Queue<GameObject> buildItemQueue = new Queue<GameObject>();
     private int placedCount;
+
+    [Header("建造完成")]
+    public UnityEvent endEvent;
 
     [Header("输入设置")]
     public KeyCode buildKey = KeyCode.F;
@@ -249,6 +253,8 @@ public class BuildSystemManager : MonoBehaviour
             currentBuildState = BuildState.None;
             placedCount = 0;
             Debug.Log("所有物体建造完成");
+            UnLockCursor();
+            endEvent?.Invoke();
         }
     }
 
@@ -324,5 +330,11 @@ public class BuildSystemManager : MonoBehaviour
             return ray.GetPoint(distance);
 
         return Vector3.zero;
+    }
+
+    public void UnLockCursor()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }

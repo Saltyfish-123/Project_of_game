@@ -7,7 +7,7 @@ using TMPro;
 
 public class LoadManger : MonoBehaviour
 {
-    [SerializeField] GameObject loadScreen;
+    [SerializeField] GameObject loadPanel;
     [SerializeField] Slider slider;
     [SerializeField] TextMeshProUGUI textMeshPro;
     [SerializeField] GameObject ChoseInterface;
@@ -25,7 +25,7 @@ public class LoadManger : MonoBehaviour
 
     IEnumerator LoadScene()
     {
-        loadScreen.SetActive(true);
+        loadPanel.SetActive(true);
         ChoseInterface.SetActive(false);
         StartInterface.SetActive(false);
 
