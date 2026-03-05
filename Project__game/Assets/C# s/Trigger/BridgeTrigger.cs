@@ -1,63 +1,83 @@
 using Cinemachine.Examples;
+using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.Events;
 
 public class CGTrigger : MonoBehaviour
 {
-    // 你可以在Inspector中拖入你的CG动画控制器或
     public Animator cgAnimator;
     public string cgTriggerName = "BridgeCG";
-    public float cgDuration = 5f; // 预估CG时长，用于自动恢复控制
 
-    private CharacterMovement playerController;
+    [Header("事件")]
+    public UnityEvent onTriggerEntered = new UnityEvent();
+    public UnityEvent onAnimationStart = new UnityEvent();
+    public UnityEvent onBeforeSceneLoad = new UnityEvent();
+    public UnityEvent onAnimationComplete = new UnityEvent();
+
+    [Header("场景加载")]
+    public string targetSceneName = "BuildingScene";
+    public float sceneLoadDelay = 2f;
     private bool isTriggered = false;
 
     void Start()
     {
-        // 找到Player控制器
-        playerController = FindObjectOfType<CharacterMovement>();
+            if (cgAnimator == null) Debug.LogWarning("无Animator");
+        
     }
 
-    // 当Player进入触发区域时调用
     void OnTriggerEnter(Collider other)
     {
-        if (isTriggered) return; // 防止重复触发
+        if (isTriggered) return;
 
         if (other.CompareTag("Player"))
         {
-            Debug.Log("玩家进入触发区");
+           Debug.Log("CG触发");
+
             isTriggered = true;
-            StartCoroutine(BridgeCGSequence());
+            StartCoroutine(PlayCGSequence());
         }
     }
 
-    // CG播放序列
-    System.Collections.IEnumerator BridgeCGSequence()
+    IEnumerator PlayCGSequence()
     {
-        // 1. 锁定Player输入
-        if (playerController != null)
-        {
-        
-            playerController.enabled = false;
-        }
+        onTriggerEntered?.Invoke();
 
-        // 2. 播放CG动画
-        if (cgAnimator != null)
+        if (cgAnimator != null && !string.IsNullOrEmpty(cgTriggerName))
         {
-            Debug.Log("开始播放动画");
             cgAnimator.SetTrigger(cgTriggerName);
         }
 
-        // 3. 等待CG结束
-        yield return new WaitForSeconds(cgDuration);
+        onAnimationStart?.Invoke();
 
-        // 4. 恢复Player控制
-        if (playerController != null)
+        onBeforeSceneLoad?.Invoke();
+
+        yield return new WaitForSeconds(sceneLoadDelay);
+
+        onAnimationComplete?.Invoke();
+
+        if (!string.IsNullOrEmpty(targetSceneName))
         {
-            playerController.enabled = true;
+            UnityEngine.SceneManagement.SceneManager.LoadScene(targetSceneName);
         }
+        else
+        {
+            Debug.LogError("目标场景名称为空!");
 
-        // 5. 销毁触发体，防止再次触发
-        Destroy(gameObject);
+            Destroy(gameObject);
+        }
     }
+
+#if UNITY_EDITOR
+    private void OnDrawGizmos()
+    {
+        if ( GetComponent<Collider>() != null)
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawWireCube(transform.position, GetComponent<Collider>().bounds.size);
+
+            Gizmos.color = new Color(1f, 0.5f, 0f, 0.3f);
+            Gizmos.DrawCube(transform.position, GetComponent<Collider>().bounds.size);
+        }
+    }
+#endif
 }
