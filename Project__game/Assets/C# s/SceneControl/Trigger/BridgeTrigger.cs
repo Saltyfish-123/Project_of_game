@@ -6,155 +6,157 @@ using System.Collections;
 
 public class BridgeTrigger : MonoBehaviour
 {
-    [Header("äº‹ä»¶")]
-    [SerializeField]private UnityEvent onTriggerEnteredEvent;
-    [SerializeField]private UnityEvent onAnimationStartEvent;
-    [SerializeField]private UnityEvent onBeforeSceneLoadEvent;
-    [SerializeField]private UnityEvent onAnimationCompleteEvent;
+    [Header("ÊÂ¼ş")]
+    [SerializeField] private UnityEvent onTriggerEnteredEvent;
+    [SerializeField] private UnityEvent onAnimationStartEvent;
+    [SerializeField] private UnityEvent onBeforeSceneLoadEvent;
+    [SerializeField] private UnityEvent onAnimationCompleteEvent;
 
-    [Header("è§¦å‘è®¾ç½®")]
-    [SerializeField]private string playerTag = "Player";
-    [SerializeField] private float triggerCooldown = 5f;// é˜²æ­¢é‡å¤è§¦å‘çš„å†·å´æ—¶é—´
+    [Header("´¥·¢ÉèÖÃ")]
+    [SerializeField] private string playerTag = "Player";
+    [SerializeField] private float triggerCooldown = 5f;// ·ÀÖ¹ÖØ¸´´¥·¢µÄÀäÈ´Ê±¼ä
 
-    [Header("åœºæ™¯åˆ‡æ¢")]
-    [SerializeField]private string targetSceneName = "Scene2";// ç›®æ ‡åœºæ™¯åç§°
-    [SerializeField] private float sceneSwitchDelay = 2f;// åœºæ™¯åˆ‡æ¢å‰çš„å»¶è¿Ÿæ—¶é—´
+    [Header("³¡¾°ÇĞ»»")]
+    [SerializeField] private string targetSceneName = "Scene2";// Ä¿±ê³¡¾°Ãû³Æ
+    [SerializeField] private float sceneSwitchDelay = 2f;// ³¡¾°ÇĞ»»Ç°µÄÑÓ³ÙÊ±¼ä
 
-    [Header("ç»„ä»¶å¼•ç”¨")]
+    [Header("×é¼şÒıÓÃ")]
     public MonoBehaviour CharacterMovemet;
-    [SerializeField] private Animator bridgeAnimator;// æ¡¥åŠ¨ç”»æ§åˆ¶å™¨
+    [SerializeField] private Animator bridgeAnimator;// ÇÅ¶¯»­¿ØÖÆÆ÷
     [SerializeField] private Animation bridgeAnimation;
 
-    [SerializeField] private CanvasGroup fadeCanvasGroup;// ç”¨äºæ¸é»‘æ•ˆæœçš„CanvasGroup
-    [SerializeField]private float fadeDuration = 1.5f;// æ¸é»‘æŒç»­æ—¶é—´
+    [SerializeField] private CanvasGroup fadeCanvasGroup;// ÓÃÓÚ½¥ºÚĞ§¹ûµÄCanvasGroup
+    [SerializeField] private float fadeDuration = 1.5f;// ½¥ºÚ³ÖĞøÊ±¼ä
 
-    [SerializeField]private bool isTriggered = false;// æ˜¯å¦å·²è§¦å‘è¿‡
-    [SerializeField]private float lastTriggerTime = -Mathf.Infinity;// ä¸Šæ¬¡è§¦å‘æ—¶é—´
+    [SerializeField] private bool isTriggered = false;// ÊÇ·ñÒÑ´¥·¢¹ı
+    [SerializeField] private float lastTriggerTime = -Mathf.Infinity;// ÉÏ´Î´¥·¢Ê±¼ä
 
     private void Awake()
     {
         onAnimationStartEvent.AddListener(PlayBridgeAnimation);
+        onAnimationCompleteEvent.AddListener(StartFadeToBlack);
     }
 
-    private void OnTriggerEnter(Collider other)// è§¦å‘å™¨è¿›å…¥
+    private void OnTriggerEnter(Collider other)// ´¥·¢Æ÷½øÈë
     {
-        if (isTriggered) return;// å·²ç»è§¦å‘è¿‡äº†ï¼Œç›´æ¥è¿”å›
+        if (isTriggered) return;// ÒÑ¾­´¥·¢¹ıÁË£¬Ö±½Ó·µ»Ø
 
-        float timeSinceLastTrigger = Time.time - lastTriggerTime;// è®¡ç®—è·ç¦»ä¸Šæ¬¡è§¦å‘çš„æ—¶é—´
-        if (timeSinceLastTrigger < triggerCooldown) return;// å¦‚æœè·ç¦»ä¸Šæ¬¡è§¦å‘çš„æ—¶é—´ä¸è¶³å†·å´æ—¶é—´ï¼Œç›´æ¥è¿”å›
+        float timeSinceLastTrigger = Time.time - lastTriggerTime;// ¼ÆËã¾àÀëÉÏ´Î´¥·¢µÄÊ±¼ä
+        if (timeSinceLastTrigger < triggerCooldown) return;// Èç¹û¾àÀëÉÏ´Î´¥·¢µÄÊ±¼ä²»×ãÀäÈ´Ê±¼ä£¬Ö±½Ó·µ»Ø
 
-        if (other.CompareTag(playerTag))// å¦‚æœè¿›å…¥è§¦å‘å™¨çš„å¯¹è±¡æ˜¯ç©å®¶
+        if (other.CompareTag(playerTag))// Èç¹û½øÈë´¥·¢Æ÷µÄ¶ÔÏóÊÇÍæ¼Ò
         {
-            isTriggered = true;// æ ‡è®°ä¸ºå·²è§¦å‘
-            lastTriggerTime = Time.time;// æ›´æ–°ä¸Šæ¬¡è§¦å‘æ—¶é—´
-            StartCoroutine(ExecuteTriggerSequence());// å¼€å§‹æ‰§è¡Œè§¦å‘äº‹ä»¶åºåˆ—
+            isTriggered = true;// ±ê¼ÇÎªÒÑ´¥·¢
+            lastTriggerTime = Time.time;// ¸üĞÂÉÏ´Î´¥·¢Ê±¼ä
+            StartCoroutine(ExecuteTriggerSequence());// ¿ªÊ¼Ö´ĞĞ´¥·¢ÊÂ¼şĞòÁĞ
         }
     }
 
-    private IEnumerator ExecuteTriggerSequence()// æ‰§è¡Œè§¦å‘äº‹ä»¶åºåˆ—
+    private IEnumerator ExecuteTriggerSequence()// Ö´ĞĞ´¥·¢ÊÂ¼şĞòÁĞ
     {
-        
-        Debug.Log("è§¦å‘æ¡¥è§¦å‘å™¨");
-        onTriggerEnteredEvent?.Invoke();
-        yield return new WaitForSeconds(0.1f);// ç­‰å¾…è§¦å‘äº‹ä»¶å®Œæˆåçš„ä¸€æ®µæ—¶é—´ï¼Œç¡®ä¿äº‹ä»¶å·²ç»å¤„ç†å®Œæ¯•
 
-        //  åŠ¨ç”»å¼€å§‹äº‹ä»¶
+        Debug.Log("´¥·¢ÇÅ´¥·¢Æ÷");
+        onTriggerEnteredEvent?.Invoke();
+        yield return new WaitForSeconds(0.1f);// µÈ´ı´¥·¢ÊÂ¼şÍê³ÉºóµÄÒ»¶ÎÊ±¼ä£¬È·±£ÊÂ¼şÒÑ¾­´¦ÀíÍê±Ï
+
+        //  ¶¯»­¿ªÊ¼ÊÂ¼ş
         onAnimationStartEvent?.Invoke();
         PlayBridgeAnimation();
-        yield return new WaitForSeconds(0.5f);// ç­‰å¾…åŠ¨ç”»å¼€å§‹åçš„ä¸€æ®µæ—¶é—´ï¼Œç¡®ä¿åŠ¨ç”»å·²ç»å¼€å§‹æ’­æ”¾
+        yield return new WaitForSeconds(0.5f);// µÈ´ı¶¯»­¿ªÊ¼ºóµÄÒ»¶ÎÊ±¼ä£¬È·±£¶¯»­ÒÑ¾­¿ªÊ¼²¥·Å
 
-        //  åœºæ™¯åŠ è½½å‰äº‹ä»¶
+        //  ³¡¾°¼ÓÔØÇ°ÊÂ¼ş
         onBeforeSceneLoadEvent?.Invoke();
-        yield return new WaitForSeconds(fadeDuration);// ç­‰å¾…æ¸é»‘åŠ¨ç”»å®Œæˆ
+        yield return new WaitForSeconds(fadeDuration);// µÈ´ı½¥ºÚ¶¯»­Íê³É
 
-        //  åŠ¨ç”»å®Œæˆäº‹ä»¶
+        //  ¶¯»­Íê³ÉÊÂ¼ş
         onAnimationCompleteEvent?.Invoke();
-        yield return new WaitForSeconds(sceneSwitchDelay);// ç­‰å¾…åœºæ™¯åˆ‡æ¢å‰çš„å»¶è¿Ÿæ—¶é—´
+        yield return new WaitForSeconds(sceneSwitchDelay);// µÈ´ı³¡¾°ÇĞ»»Ç°µÄÑÓ³ÙÊ±¼ä
 
         LoadTargetScene();
     }
 
     private void LoadTargetScene()
     {
-        if (!string.IsNullOrEmpty(targetSceneName))// å¦‚æœç›®æ ‡åœºæ™¯åç§°ä¸ä¸ºç©ºï¼ŒåŠ è½½ç›®æ ‡åœºæ™¯
+        if (!string.IsNullOrEmpty(targetSceneName))// Èç¹ûÄ¿±ê³¡¾°Ãû³Æ²»Îª¿Õ£¬¼ÓÔØÄ¿±ê³¡¾°
         {
             SceneManager.LoadScene(targetSceneName);
         }
         else
         {
-            Debug.LogError("ç›®æ ‡åœºæ™¯åç§°ä¸ºç©ºï¼");
+            Debug.LogError("Ä¿±ê³¡¾°Ãû³ÆÎª¿Õ£¡");
         }
     }
 
-    [ContextMenu("æµ‹è¯•è§¦å‘äº‹ä»¶")]
-    public void TestTriggerSequence()// åœ¨Inspectorä¸­æµ‹è¯•è§¦å‘äº‹ä»¶åºåˆ—
+    [ContextMenu("²âÊÔ´¥·¢ÊÂ¼ş")]
+    public void TestTriggerSequence()// ÔÚInspectorÖĞ²âÊÔ´¥·¢ÊÂ¼şĞòÁĞ
     {
-        if (isTriggered) return;// å·²ç»è§¦å‘è¿‡äº†ï¼Œç›´æ¥è¿”å›
-        isTriggered = true;// æ ‡è®°ä¸ºå·²è§¦å‘
-        StartCoroutine(ExecuteTriggerSequence());// å¼€å§‹æ‰§è¡Œè§¦å‘äº‹ä»¶åºåˆ—
+        if (isTriggered) return;// ÒÑ¾­´¥·¢¹ıÁË£¬Ö±½Ó·µ»Ø
+        isTriggered = true;// ±ê¼ÇÎªÒÑ´¥·¢
+        StartCoroutine(ExecuteTriggerSequence());// ¿ªÊ¼Ö´ĞĞ´¥·¢ÊÂ¼şĞòÁĞ
     }
 
-    [ContextMenu("é‡ç½®è§¦å‘å™¨")]
-    public void ResetTrigger()// é‡ç½®è§¦å‘å™¨çŠ¶æ€
+    [ContextMenu("ÖØÖÃ´¥·¢Æ÷")]
+    public void ResetTrigger()// ÖØÖÃ´¥·¢Æ÷×´Ì¬
     {
         isTriggered = false;
-        if (fadeCanvasGroup != null)// é‡ç½®CanvasGroupçŠ¶æ€
+        if (fadeCanvasGroup != null)// ÖØÖÃCanvasGroup×´Ì¬
         {
-            fadeCanvasGroup.alpha = 0f;// é€æ˜
+            fadeCanvasGroup.alpha = 0f;// Í¸Ã÷
         }
     }
 
-    // æä¾›ç»™Inspectorç»‘å®šçš„äº‹ä»¶æ–¹æ³•
+    // Ìá¹©¸øInspector°ó¶¨µÄÊÂ¼ş·½·¨
     public void LockPlayer()
     {
-        if (CharacterMovemet != null)// é”å®šç©å®¶æ§åˆ¶å™¨
+        if (CharacterMovemet != null)// Ëø¶¨Íæ¼Ò¿ØÖÆÆ÷
         {
             CharacterMovemet.enabled = false;
-            Debug.Log("ç©å®¶æ§åˆ¶å™¨å·²é”å®š");
+            Debug.Log("Íæ¼Ò¿ØÖÆÆ÷ÒÑËø¶¨");
         }
     }
 
     public void UnlockPlayer()
     {
-        if (CharacterMovemet != null)// è§£é”ç©å®¶æ§åˆ¶å™¨
+        if (CharacterMovemet != null)// ½âËøÍæ¼Ò¿ØÖÆÆ÷
         {
             CharacterMovemet.enabled = true;
-            Debug.Log("ç©å®¶æ§åˆ¶å™¨å·²è§£é”");
+            Debug.Log("Íæ¼Ò¿ØÖÆÆ÷ÒÑ½âËø");
         }
     }
 
-    public void PlayBridgeAnimation()// æ’­æ”¾æ¡¥åŠ¨ç”»
+    public void PlayBridgeAnimation()// ²¥·ÅÇÅ¶¯»­
     {
         if (bridgeAnimator != null)
         {
-            bridgeAnimator.SetTrigger("BridgeCG");// è§¦å‘æ¡¥åŠ¨ç”»
-            Debug.Log("æ’­æ”¾æ¡¥åŠ¨ç”»");
+            bridgeAnimator.SetTrigger("BridgeCG");// ´¥·¢ÇÅ¶¯»­
+            Debug.Log("²¥·ÅÇÅ¶¯»­");
         }
     }
 
-    public void StartFadeToBlack()// å¼€å§‹æ¸é»‘
+    public void StartFadeToBlack()// ¿ªÊ¼½¥ºÚ
     {
         if (fadeCanvasGroup != null)
         {
-            StartCoroutine(FadeToBlackCoroutine());// å¯åŠ¨æ¸é»‘åç¨‹
+            StartCoroutine(FadeToBlackCoroutine());// Æô¶¯½¥ºÚĞ­³Ì
         }
     }
 
-    private IEnumerator FadeToBlackCoroutine()// æ¸é»‘åç¨‹
+    private IEnumerator FadeToBlackCoroutine()// ½¥ºÚĞ­³Ì
     {
-        fadeCanvasGroup.interactable = true;// å…è®¸äº¤äº’ï¼Œé˜²æ­¢ç©å®¶åœ¨æ¸é»‘è¿‡ç¨‹ä¸­æ“ä½œ
-        fadeCanvasGroup.blocksRaycasts = true;// é˜»æ­¢å°„çº¿ç©¿é€ï¼Œç¡®ä¿ç©å®¶æ— æ³•ç‚¹å‡»å…¶ä»–UIå…ƒ
+        fadeCanvasGroup.interactable = true;// ÔÊĞí½»»¥£¬·ÀÖ¹Íæ¼ÒÔÚ½¥ºÚ¹ı³ÌÖĞ²Ù×÷
+        fadeCanvasGroup.blocksRaycasts = true;// ×èÖ¹ÉäÏß´©Í¸£¬È·±£Íæ¼ÒÎŞ·¨µã»÷ÆäËûUIÔª
 
-        float timer = 0f;// åˆå§‹åŒ–è®¡æ—¶å™¨
-        while (timer < fadeDuration)// åœ¨fadeDurationæ—¶é—´å†…é€æ¸å¢åŠ alphaå€¼
+        float timer = 0f;// ³õÊ¼»¯¼ÆÊ±Æ÷
+        while (timer < fadeDuration)// ÔÚfadeDurationÊ±¼äÄÚÖğ½¥Ôö¼ÓalphaÖµ
         {
-            timer += Time.deltaTime;// è®¡ç®—å™¨++
-            float alpha = Mathf.Lerp(0f, 1f, timer / fadeDuration);// å°†alphaå€¼åº”ç”¨åˆ°CanvasGroup
-            fadeCanvasGroup.alpha = alpha;// ç¡®ä¿æœ€ç»ˆalphaå€¼ä¸º1ï¼Œå®Œå…¨è¦†ç›–å±å¹•
-            yield return null;// ç­‰å¾…ä¸‹ä¸€å¸§ç»§ç»­æ‰§è¡Œ
+            timer += Time.deltaTime;// ¼ÆËãÆ÷++
+            float alpha = 0f;
+            fadeCanvasGroup.alpha = alpha;// È·±£×îÖÕalphaÖµÎª1£¬ÍêÈ«¸²¸ÇÆÁÄ»
+            alpha = Mathf.Lerp(0f, 255f, timer / fadeDuration);// ½«alphaÖµÓ¦ÓÃµ½CanvasGroup
+            yield return null;// µÈ´ıÏÂÒ»Ö¡¼ÌĞøÖ´ĞĞ
         }
 
-        fadeCanvasGroup.alpha = 1f;// ç¡®ä¿æœ€ç»ˆalphaå€¼ä¸º1ï¼Œå®Œå…¨è¦†ç›–å±å¹•
-        Debug.Log("åœºæ™¯å·²å®Œå…¨æ¸é»‘");
+        fadeCanvasGroup.alpha = 255f;// È·±£×îÖÕalphaÖµÎª1£¬ÍêÈ«¸²¸ÇÆÁÄ»
+        Debug.Log("³¡¾°ÒÑÍêÈ«½¥ºÚ");
     }
 }
