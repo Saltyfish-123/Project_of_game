@@ -3,32 +3,38 @@ using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
-public class MyBridgeTrigger : UnityEvent { }
 
 public class BridgeTrigger : MonoBehaviour
 {
     [Header("事件")]
-    private MyBridgeTrigger onTriggerEnteredEvent = new MyBridgeTrigger();
-    private MyBridgeTrigger onAnimationStartEvent = new MyBridgeTrigger();
-    private MyBridgeTrigger onBeforeSceneLoadEvent = new MyBridgeTrigger();
-    private MyBridgeTrigger onAnimationCompleteEvent = new MyBridgeTrigger();
+    [SerializeField]private UnityEvent onTriggerEnteredEvent;
+    [SerializeField]private UnityEvent onAnimationStartEvent;
+    [SerializeField]private UnityEvent onBeforeSceneLoadEvent;
+    [SerializeField]private UnityEvent onAnimationCompleteEvent;
 
     [Header("触发设置")]
-    private string playerTag = "Player";
-    private float triggerCooldown = 5f;// 防止重复触发的冷却时间
+    [SerializeField]private string playerTag = "Player";
+    [SerializeField] private float triggerCooldown = 5f;// 防止重复触发的冷却时间
 
     [Header("场景切换")]
-    private string targetSceneName = "Scene2";// 目标场景名称
-    private float sceneSwitchDelay = 2f;// 场景切换前的延迟时间
+    [SerializeField]private string targetSceneName = "Scene2";// 目标场景名称
+    [SerializeField] private float sceneSwitchDelay = 2f;// 场景切换前的延迟时间
 
     [Header("组件引用")]
-    private MonoBehaviour CharacterMovemet;
-    private Animator bridgeAnimator;// 桥动画控制器
-    private CanvasGroup fadeCanvasGroup;// 用于渐黑效果的CanvasGroup
-    private float fadeDuration = 1.5f;// 渐黑持续时间
+    public MonoBehaviour CharacterMovemet;
+    [SerializeField] private Animator bridgeAnimator;// 桥动画控制器
+    [SerializeField] private Animation bridgeAnimation;
 
-    private bool isTriggered = false;// 是否已触发过
-    private float lastTriggerTime = -Mathf.Infinity;// 上次触发时间
+    [SerializeField] private CanvasGroup fadeCanvasGroup;// 用于渐黑效果的CanvasGroup
+    [SerializeField]private float fadeDuration = 1.5f;// 渐黑持续时间
+
+    [SerializeField]private bool isTriggered = false;// 是否已触发过
+    [SerializeField]private float lastTriggerTime = -Mathf.Infinity;// 上次触发时间
+
+    private void Awake()
+    {
+        onAnimationStartEvent.AddListener(PlayBridgeAnimation);
+    }
 
     private void OnTriggerEnter(Collider other)// 触发器进入
     {
@@ -47,12 +53,14 @@ public class BridgeTrigger : MonoBehaviour
 
     private IEnumerator ExecuteTriggerSequence()// 执行触发事件序列
     {
+        
         Debug.Log("触发桥触发器");
         onTriggerEnteredEvent?.Invoke();
         yield return new WaitForSeconds(0.1f);// 等待触发事件完成后的一段时间，确保事件已经处理完毕
 
         //  动画开始事件
         onAnimationStartEvent?.Invoke();
+        PlayBridgeAnimation();
         yield return new WaitForSeconds(0.5f);// 等待动画开始后的一段时间，确保动画已经开始播放
 
         //  场景加载前事件
