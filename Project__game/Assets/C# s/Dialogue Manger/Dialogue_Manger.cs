@@ -17,10 +17,9 @@ public class DialogueManger : MonoBehaviour
     [SerializeField] private float typingSpeed = 0.05f;//print Speed
     [SerializeField] private float turnSpeed = 2f;//the speed of turn to the NPC
 
-    [SerializeField] Player_Control player_Control;
-
+    [SerializeField] FirstPlayercontroll FirstPlayercontroll;
     private List<dialogueString> dialogueList;
-    [SerializeField] private Player_Control player;
+    [SerializeField] private FirstPlayercontroll player;
 
     [Header("Player")]
     private Transform playerCamera;
@@ -40,9 +39,9 @@ public class DialogueManger : MonoBehaviour
         dialogueParent.SetActive(true);
         // firstCameracontrool.enable = false;这一步是在禁用第一人称控制器
 
-        if (player_Control != null)
+        if (FirstPlayercontroll != null)
         {
-            player_Control.enabled = false;
+            FirstPlayercontroll.enabled = false;
         }
 
 
@@ -77,9 +76,9 @@ public class DialogueManger : MonoBehaviour
         dialogueParent.SetActive(false);
 
         //这里要启用一下第一人称控制器的组件
-        if (player_Control != null)
+        if (FirstPlayercontroll != null)
         {
-            player_Control.enabled = true;
+            FirstPlayercontroll.enabled = true;
         }
 
         player.GetComponentInChildren<Camera>().transform.localRotation = Quaternion.Euler(0, 0, 0);
