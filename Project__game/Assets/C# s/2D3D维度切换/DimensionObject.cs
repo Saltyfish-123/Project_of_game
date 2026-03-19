@@ -7,7 +7,7 @@ public class DimensionObject : MonoBehaviour
     [Header("Colliders")]
     public Collider collider_2D;
     public Collider collider_3D;
-
+    [SerializeField]private GameObject player;
     
     private void SwitchTo2D()
     {
@@ -28,7 +28,7 @@ public class DimensionObject : MonoBehaviour
         if (Vector3.Dot(hitNormal, Vector3.up) > 0.9f)
         {
             var rb = player.GetComponent<Rigidbody>();
-            rb.position = new Vector3(PlayerPrefs.transform.position.x, PlayerPrefs.transform.position.y, transform.position.z);
+            rb.position = new Vector3(player.transform.position.x, player.transform.position.y, transform.position.z);
         }
     }
 
