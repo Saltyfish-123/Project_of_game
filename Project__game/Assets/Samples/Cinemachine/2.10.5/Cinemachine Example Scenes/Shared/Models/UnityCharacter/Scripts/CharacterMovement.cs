@@ -11,6 +11,10 @@ namespace Cinemachine.Examples
 
         private float speed = 0f;
         private float direction = 0f;
+        private float jumpForce = 4f;
+        private bool doJump = false;
+        private bool isGrounded = false;
+        private Collider col;
         private bool isSprinting = false;
         private Rigidbody rb;
         private Animator anim;
@@ -30,6 +34,7 @@ namespace Cinemachine.Examples
             anim.applyRootMotion = true;
             mainCamera = Camera.main;
             rb = GetComponent<Rigidbody>();
+            col = GetComponent<Collider>();
             rb.interpolation = RigidbodyInterpolation.Interpolate;
             rb.constraints &= ~RigidbodyConstraints.FreezeRotationY;
         }
@@ -72,6 +77,14 @@ namespace Cinemachine.Examples
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
             }
+
+            // Jump input: set a flag to be handled in FixedUpdate (physics)
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                doJump = true;
+            }
+
+
         }
 
         // Interact with Rigidbody only in FixedUpdate
@@ -80,6 +93,26 @@ namespace Cinemachine.Examples
             anim.SetFloat("Speed", speed);
             anim.SetFloat("Direction", direction);
             anim.SetBool("isSprinting", isSprinting);
+
+            // Ground check: cast a short ray downward from the collider center
+            if (col != null)
+            {
+                var bounds = col.bounds;
+                float rayDistance = bounds.extents.y + 0.1f;
+                isGrounded = Physics.Raycast(bounds.center, Vector3.down, rayDistance, ~0, QueryTriggerInteraction.Ignore);
+            }
+
+            // Handle jump (physics) when requested and grounded
+            if (doJump)
+            {
+                if (isGrounded)
+                {
+                    var v = rb.velocity;
+                    v.y = jumpForce;
+                    rb.velocity = v;
+                }
+                doJump = false;
+            }
 
             // Update target direction relative to the camera view or player forward
             var tr = useCharacterForward ? transform : mainCamera.transform;
