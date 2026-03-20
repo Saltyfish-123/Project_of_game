@@ -148,8 +148,8 @@ public class BridgeTrigger : MonoBehaviour
 
     private IEnumerator FadeToBlackCoroutine()// 渐黑协程
     {
-        fadeCanvasGroup.interactable = true;// 允许交互，防止玩家在渐黑过程中操作
-        fadeCanvasGroup.blocksRaycasts = true;// 阻止射线穿透，确保玩家无法点击其他UI元
+        //fadeCanvasGroup.interactable = true;// 允许交互，防止玩家在渐黑过程中操作
+        //fadeCanvasGroup.blocksRaycasts = true;// 阻止射线穿透，确保玩家无法点击其他UI元
 
         while (BlackImage.color.a < 1)
         {
