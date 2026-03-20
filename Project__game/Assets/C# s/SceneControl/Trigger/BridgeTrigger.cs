@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using System.Collections;
@@ -6,6 +7,9 @@ using System.Collections;
 
 public class BridgeTrigger : MonoBehaviour
 {
+
+    private Color addColor = new Color(0, 0, 0, 0.01f);
+
     [Header("事件")]
     [SerializeField] private UnityEvent onTriggerEnteredEvent;
     [SerializeField] private UnityEvent onAnimationStartEvent;
@@ -26,6 +30,7 @@ public class BridgeTrigger : MonoBehaviour
     [SerializeField] private Animation bridgeAnimation;
 
     [SerializeField] private CanvasGroup fadeCanvasGroup;// 用于渐黑效果的CanvasGroup
+    [SerializeField] private Image BlackImage;
     [SerializeField] private float fadeDuration = 1.5f;// 渐黑持续时间
 
     [SerializeField] private bool isTriggered = false;// 是否已触发过
@@ -135,7 +140,7 @@ public class BridgeTrigger : MonoBehaviour
 
     public void StartFadeToBlack()// 开始渐黑
     {
-        if (fadeCanvasGroup != null)
+        if (BlackImage != null)
         {
             StartCoroutine(FadeToBlackCoroutine());// 启动渐黑协程
         }
@@ -146,17 +151,22 @@ public class BridgeTrigger : MonoBehaviour
         fadeCanvasGroup.interactable = true;// 允许交互，防止玩家在渐黑过程中操作
         fadeCanvasGroup.blocksRaycasts = true;// 阻止射线穿透，确保玩家无法点击其他UI元
 
-        float timer = 0f;// 初始化计时器
-        while (timer < fadeDuration)// 在fadeDuration时间内逐渐增加alpha值
+        while (BlackImage.color.a < 1)
         {
-            timer += Time.deltaTime;// 计算器++
-            float alpha = 0f;
-            fadeCanvasGroup.alpha = alpha;// 确保最终alpha值为1，完全覆盖屏幕
-            alpha = Mathf.Lerp(0f, 255f, timer / fadeDuration);// 将alpha值应用到CanvasGroup
-            yield return null;// 等待下一帧继续执行
+            BlackImage.color += addColor;
+            yield return null;
         }
 
-        fadeCanvasGroup.alpha = 255f;// 确保最终alpha值为1，完全覆盖屏幕
+
+        //float timer = 0f;// 初始化计时器
+        //while (timer < fadeDuration)// 在fadeDuration时间内逐渐增加alpha值
+        //{
+        //    timer += Time.deltaTime;// 计算器++
+        //    float alpha = 0f;
+        //    fadeCanvasGroup.alpha = alpha;// 确保最终alpha值为1，完全覆盖屏幕
+        //    alpha = Mathf.Lerp(0f, 1f, timer / fadeDuration);// 将alpha值应用到CanvasGroup
+        //    yield return null;// 等待下一帧继续执行
+        //}
         Debug.Log("场景已完全渐黑");
     }
 }

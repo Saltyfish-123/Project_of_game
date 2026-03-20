@@ -42010,6 +42010,7 @@ MonoBehaviour:
   bridgeAnimator: {fileID: 363941763}
   bridgeAnimation: {fileID: 363941765}
   fadeCanvasGroup: {fileID: 1961652742}
+  BlackImage: {fileID: 880182073}
   fadeDuration: 1.5
   isTriggered: 0
   lastTriggerTime: -Infinity
