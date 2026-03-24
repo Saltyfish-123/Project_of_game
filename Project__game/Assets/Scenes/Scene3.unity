@@ -347,12 +347,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 145520459}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 11.95, y: 1.44, z: 4.85}
   m_LocalScale: {x: 3.6912, y: 1, z: 1.8862}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &649691635
 GameObject:
@@ -366,6 +366,7 @@ GameObject:
   - component: {fileID: 649691638}
   - component: {fileID: 649691637}
   - component: {fileID: 649691636}
+  - component: {fileID: 649691640}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -452,13 +453,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649691635}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5908523, y: 0.78, z: 1.7225037}
   m_LocalScale: {x: 8.637025, y: 0.31116253, z: 4.9066}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &649691640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 649691635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20eef4d3e3a30064e98e53a58be467ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collider_2D: {fileID: 0}
+  collider_3D: {fileID: 0}
+  player: {fileID: 0}
 --- !u!1 &769420903
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,7 +683,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 649691639}
+  - {fileID: 145520463}
+  - {fileID: 1709448969}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1578227271
@@ -754,6 +773,8 @@ GameObject:
   - component: {fileID: 1709448972}
   - component: {fileID: 1709448971}
   - component: {fileID: 1709448970}
+  - component: {fileID: 1709448973}
+  - component: {fileID: 1709448974}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -769,12 +790,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709448968}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.99, y: 1.79, z: 2.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &1709448970
 CapsuleCollider:
@@ -849,6 +870,48 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709448968}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1709448973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709448968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4dc5b340fd6e804ca6cb9833f0a0ee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  is2D: 0
+  moveSpeed: 5
+  jumpForce: 7
+--- !u!54 &1709448974
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709448968}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1810498689
 GameObject:
   m_ObjectHideFlags: 3
@@ -1045,9 +1108,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 769420906}
   - {fileID: 102149373}
-  - {fileID: 649691639}
-  - {fileID: 145520463}
-  - {fileID: 1709448969}
   - {fileID: 1578227273}
   - {fileID: 1077365988}
   - {fileID: 1495851531}
