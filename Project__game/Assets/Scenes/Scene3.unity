@@ -1275,11 +1275,7 @@ Transform:
   - {fileID: 158840466249456274}
   - {fileID: 4025093736079940188}
   - {fileID: 6967329234637750707}
-<<<<<<< HEAD
-  - {fileID: 2208619438186665928}
-=======
   - {fileID: 543450652843694385}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1578227271
@@ -1824,21 +1820,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!33 &42702063401585252
-MeshFilter:
-=======
 --- !u!4 &72980962995814540
 Transform:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 7750149937474604860}
-  m_Mesh: {fileID: -6063362566482395411, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
   m_GameObject: {fileID: 77769871133405273}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000007770188, y: -0.18315114, z: 0.000000027697416, w: 0.9830848}
@@ -1866,7 +1853,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &138411921163401821
 Transform:
   m_ObjectHideFlags: 0
@@ -1882,17 +1868,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0, y: -15.782, z: 0}
-<<<<<<< HEAD
---- !u!33 &151582921480247244
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829810938626767981}
-  m_Mesh: {fileID: -3246880160298225754, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &158840466249456274
 Transform:
   m_ObjectHideFlags: 0
@@ -1908,43 +1883,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0.596, y: 27.116, z: 0.556}
-<<<<<<< HEAD
---- !u!4 &250112497577436191
-Transform:
-=======
 --- !u!23 &270412540203818526
 MeshRenderer:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 2531407359788771780}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: 0.17091888, y: 0.14300929, z: -0.23413345}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &255950031056289394
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5286119964924159952}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: 0.89878017, y: -0.1349473, z: -0.23413356}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 3953092441103144518}
   m_Enabled: 1
   m_CastShadows: 1
@@ -1981,7 +1925,6 @@ Transform:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &278109996711079731
 Transform:
   m_ObjectHideFlags: 0
@@ -2057,24 +2000,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
---- !u!4 &406729598040628477
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2789357841998639566}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: 0.16619629, y: 0.15539986, z: 0.23019454}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &425563190704893425
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2083,36 +2008,13 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3603117246860549484}
   m_Mesh: {fileID: -5035677313745118426, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
---- !u!4 &428970686334891338
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7750149937474604860}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: -0.9000967, y: -0.1349473, z: -0.23413329}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &474869533190056112
-=======
 --- !u!23 &468189032349619800
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 2974510487775178513}
-=======
   m_GameObject: {fileID: 2458531534381529711}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2126,11 +2028,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<< HEAD
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
   - {fileID: 8748892135801146194, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2170,8 +2068,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-=======
 --- !u!4 &543450652843694385
 Transform:
   m_ObjectHideFlags: 0
@@ -2210,7 +2106,6 @@ Transform:
   - {fileID: 7721358991328635762}
   m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &549769848477593220
 Transform:
   m_ObjectHideFlags: 0
@@ -2226,21 +2121,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2085324111}
   m_LocalEulerAnglesHint: {x: 0, y: -18.924, z: 0}
-<<<<<<< HEAD
---- !u!33 &590989485692364913
-MeshFilter:
-=======
 --- !u!4 &563341779555408317
 Transform:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 4237991143694818205}
-  m_Mesh: {fileID: 8879619281196336401, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
   m_GameObject: {fileID: 3592057475355175734}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000007770188, y: -0.18315114, z: 0.000000027697416, w: 0.9830848}
@@ -2265,7 +2151,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 543450652843694385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &793694909544918822
 GameObject:
   m_ObjectHideFlags: 0
@@ -2284,9 +2169,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!1 &829810938626767981
-=======
 --- !u!33 &818208439873609566
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2296,7 +2178,6 @@ MeshFilter:
   m_GameObject: {fileID: 7748397813961512782}
   m_Mesh: {fileID: 7560048064113606297, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
 --- !u!1 &919132148836041611
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2304,44 +2185,14 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 6150317554314242741}
-  - component: {fileID: 151582921480247244}
-  - component: {fileID: 5114539799427827132}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1904
-=======
   - component: {fileID: 543450652843694385}
   m_Layer: 0
   m_Name: FBX_5463
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< HEAD
-  m_IsActive: 1
---- !u!1 &844188138917116846
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5004153087155492043}
-  - component: {fileID: 4355628624891691590}
-  - component: {fileID: 7353083359933481504}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1922
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-=======
   m_IsActive: 0
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &921836529771355628
 Transform:
   m_ObjectHideFlags: 0
@@ -2357,21 +2208,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: -0.012, y: 37.745, z: 0.012}
-<<<<<<< HEAD
---- !u!33 &942991096995841816
-MeshFilter:
-=======
 --- !u!1 &974650933026924283
 GameObject:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 4820815513238026878}
-  m_Mesh: {fileID: -4991664544143930342, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1224132394712611810}
@@ -2384,7 +2226,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &995192639490764175
 GameObject:
   m_ObjectHideFlags: 0
@@ -2445,24 +2286,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
---- !u!4 &1006951705596234059
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5457423202371876190}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: -0.16548187, y: 0.14300929, z: -0.2341334}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &1139330880685238809
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2486,20 +2309,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0.596, y: 27.116, z: 0.556}
-<<<<<<< HEAD
---- !u!33 &1311725564270561959
-=======
 --- !u!33 &1195414831755995940
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 6991467689842281910}
-  m_Mesh: {fileID: -7241840589557069268, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
   m_GameObject: {fileID: 4402809843402007522}
   m_Mesh: {fileID: 3934049209008367156, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
 --- !u!4 &1224132394712611810
@@ -2525,7 +2340,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3126577787143196915}
   m_Mesh: {fileID: 8421698376689128083, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &1454270786134605083
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2679,76 +2493,14 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
---- !u!1 &1613673983563617027
-GameObject:
-=======
 --- !u!33 &1604227442064885709
 MeshFilter:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2595354649929626365}
-  - component: {fileID: 3774119539658034080}
-  - component: {fileID: 5757664518343913059}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1921
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &1667783138190288419
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7004101254551261857}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
-=======
   m_GameObject: {fileID: 5817573265886261655}
   m_Mesh: {fileID: 1458512322893142384, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &1673205312807908615
 Transform:
   m_ObjectHideFlags: 0
@@ -2764,17 +2516,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0.596, y: 27.116, z: 0.556}
-<<<<<<< HEAD
---- !u!33 &1697984845941453840
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3179173659948008871}
-  m_Mesh: {fileID: -7259521446027379335, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &1701167729955514700
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2817,29 +2558,12 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
---- !u!33 &1815976860726876714
-MeshFilter:
-=======
 --- !u!4 &1798971323947729664
 Transform:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 5457423202371876190}
-  m_Mesh: {fileID: 2451317993354717978, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
---- !u!33 &1898142154466348940
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7004101254551261857}
-  m_Mesh: {fileID: 131596334895310985, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
   m_GameObject: {fileID: 5691255231319332884}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000007770188, y: -0.18315114, z: 0.000000027697416, w: 0.9830848}
@@ -2849,7 +2573,6 @@ MeshFilter:
   m_Children: []
   m_Father: {fileID: 543450652843694385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &1993387553547222811
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2858,8 +2581,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3474610302725358455}
   m_Mesh: {fileID: 1425891492202196752, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
-=======
 --- !u!23 &2038935478819608365
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2902,7 +2623,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &2050704330891416287
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2945,11 +2665,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
---- !u!1 &2069752369297119781
-=======
 --- !u!1 &2221190779817726887
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2957,109 +2673,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 8464953017314297265}
-  - component: {fileID: 8783512701996996561}
-  - component: {fileID: 7379753076190379036}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1918
-=======
   - component: {fileID: 3270623763220788797}
   - component: {fileID: 6857129639294303807}
   - component: {fileID: 8501807935413743027}
   m_Layer: 0
   m_Name: huitugou_5463_10
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-<<<<<<< HEAD
-  m_IsActive: 1
---- !u!4 &2208619438186665928
-Transform:
-=======
   m_IsActive: 0
 --- !u!33 &2259191386083165617
 MeshFilter:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 7144472064365251976}
-  serializedVersion: 2
-  m_LocalRotation: {x: -3.5527137e-15, y: 1, z: 0.00000008940697, w: 0.00000007549791}
-  m_LocalPosition: {x: 30.62, y: 5, z: 1}
-  m_LocalScale: {x: 10.785306, y: 10.785307, z: 10.785307}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5263467905761664600}
-  - {fileID: 8150381888652453825}
-  - {fileID: 255950031056289394}
-  - {fileID: 4993026098794920381}
-  - {fileID: 6150317554314242741}
-  - {fileID: 8885148958666716555}
-  - {fileID: 4017563245373634359}
-  - {fileID: 250112497577436191}
-  - {fileID: 5930438393589795311}
-  - {fileID: 3726409010085258431}
-  - {fileID: 7007640631414990998}
-  - {fileID: 7117943770274477820}
-  - {fileID: 2852024482850506209}
-  - {fileID: 5389393603500256441}
-  - {fileID: 1006951705596234059}
-  - {fileID: 5315279049629335761}
-  - {fileID: 8311065863281770439}
-  - {fileID: 428970686334891338}
-  - {fileID: 8464953017314297265}
-  - {fileID: 8269013223976195627}
-  - {fileID: 406729598040628477}
-  - {fileID: 2595354649929626365}
-  - {fileID: 5004153087155492043}
-  m_Father: {fileID: 1495851531}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2220699951280958215
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7007640631414990998}
-  - component: {fileID: 4703104970789114526}
-  - component: {fileID: 8871834210082796424}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1910
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &2277455096322306970
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7117943770274477820}
-  - component: {fileID: 3003596030810639635}
-  - component: {fileID: 6167476244758195822}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1911
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-=======
   m_GameObject: {fileID: 77769871133405273}
   m_Mesh: {fileID: 5383286957662695999, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &2292480174427548778
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3068,51 +2699,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9200403836334900094}
   m_Mesh: {fileID: 1261782256069214910, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
---- !u!23 &2393986505993682398
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3296673405968505122}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
-=======
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &2417040593715408022
 Transform:
   m_ObjectHideFlags: 0
@@ -3146,11 +2732,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!1 &2531407359788771780
-=======
 --- !u!1 &2458531534381529711
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3158,46 +2740,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 250112497577436191}
-  - component: {fileID: 4923384399458337220}
-  - component: {fileID: 3217317933526797599}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1907
-=======
   - component: {fileID: 7598625885096278012}
   - component: {fileID: 6351600831158927021}
   - component: {fileID: 468189032349619800}
   m_Layer: 0
   m_Name: huitugou_5463_51
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!4 &2595354649929626365
-Transform:
-=======
 --- !u!23 &2505688313277625967
 MeshRenderer:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1613673983563617027}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: -0.42244643, y: 0.062747665, z: 0.23019464}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 2981195736881579962}
   m_Enabled: 1
   m_CastShadows: 1
@@ -3242,7 +2800,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6065619650974461541}
   m_Mesh: {fileID: -2270633115016416768, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &2639703497392358254
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3285,8 +2842,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!33 &2710767761791512046
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3295,7 +2850,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4497045177997735374}
   m_Mesh: {fileID: -1639796105278424678, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &2733724323564581767
 GameObject:
   m_ObjectHideFlags: 0
@@ -3314,9 +2868,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!23 &2745421211838030747
-=======
 --- !u!33 &2749728739980054297
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3326,17 +2877,12 @@ MeshFilter:
   m_GameObject: {fileID: 3592057475355175734}
   m_Mesh: {fileID: -3031325470454748089, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
 --- !u!23 &2775265537936691287
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 3179173659948008871}
-=======
   m_GameObject: {fileID: 4497045177997735374}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3350,11 +2896,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<< HEAD
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
   - {fileID: 8748892135801146194, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3391,11 +2933,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0.596, y: 27.116, z: 0.556}
-<<<<<<< HEAD
---- !u!1 &2789357841998639566
-=======
 --- !u!1 &2784424855748267351
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3403,42 +2941,16 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 406729598040628477}
-  - component: {fileID: 4346565712023751494}
-  - component: {fileID: 9123600205042174933}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1920
-=======
   - component: {fileID: 621462381908097206}
   - component: {fileID: 5975960482504897253}
   - component: {fileID: 5332902852300251456}
   m_Layer: 0
   m_Name: huitugou_5463_16
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!4 &2852024482850506209
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3296673405968505122}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: -0.41772383, y: 0.05035719, z: -0.23413335}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &2899628918969608508
 GameObject:
   m_ObjectHideFlags: 0
@@ -3472,53 +2984,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0.596, y: 27.116, z: 0.556}
-<<<<<<< HEAD
---- !u!23 &2918523306926338853
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4237991143694818205}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &2974510487775178513
-=======
 --- !u!1 &2981195736881579962
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3526,19 +2992,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 8311065863281770439}
-  - component: {fileID: 7338060011589765785}
-  - component: {fileID: 474869533190056112}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1916
-=======
   - component: {fileID: 6626844761677423791}
   - component: {fileID: 8131100678897509903}
   - component: {fileID: 2505688313277625967}
   m_Layer: 0
   m_Name: huitugou_5463_62
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3564,17 +3022,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!33 &3003596030810639635
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2277455096322306970}
-  m_Mesh: {fileID: -7343654169739837796, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &3111221444774744235
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3583,19 +3030,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7352649637967223022}
   m_Mesh: {fileID: -2550359063822158968, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
---- !u!33 &3158365450502730125
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5897285804556023128}
-  m_Mesh: {fileID: -8924156198147590803, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
---- !u!1 &3179173659948008871
-=======
 --- !u!1 &3126577787143196915
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3603,117 +3038,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 8269013223976195627}
-  - component: {fileID: 1697984845941453840}
-  - component: {fileID: 2745421211838030747}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1919
-=======
   - component: {fileID: 8218272150684854360}
   - component: {fileID: 1400087164917669304}
   - component: {fileID: 2038935478819608365}
   m_Layer: 0
   m_Name: huitugou_5463_25
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!23 &3217317933526797599
-MeshRenderer:
-=======
 --- !u!4 &3270623763220788797
 Transform:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 2531407359788771780}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &3229208558912431823
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 3726409010085258431}
-  - component: {fileID: 3960105534710226256}
-  - component: {fileID: 8035924907757722566}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1909
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &3296673405968505122
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2852024482850506209}
-  - component: {fileID: 3337173686583203349}
-  - component: {fileID: 2393986505993682398}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1912
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!33 &3337173686583203349
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3296673405968505122}
-  m_Mesh: {fileID: -2947845005656712715, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
   m_GameObject: {fileID: 2221190779817726887}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000007770188, y: -0.18315114, z: 0.000000027697416, w: 0.9830848}
@@ -3723,7 +3063,6 @@ MeshFilter:
   m_Children: []
   m_Father: {fileID: 543450652843694385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &3474610302725358455
 GameObject:
   m_ObjectHideFlags: 0
@@ -3826,55 +3165,12 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
---- !u!23 &3536754169793905468
-MeshRenderer:
-=======
 --- !u!1 &3592057475355175734
 GameObject:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 8628303162522486560}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
-=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 563341779555408317}
@@ -3887,7 +3183,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &3603117246860549484
 GameObject:
   m_ObjectHideFlags: 0
@@ -3921,32 +3216,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1352905594}
   m_LocalEulerAnglesHint: {x: 0, y: -21.963, z: 0}
-<<<<<<< HEAD
---- !u!4 &3726409010085258431
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3229208558912431823}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0000000073396365, y: 0.9851093, z: -0.0000000012809711, w: -0.17192912}
-  m_LocalPosition: {x: -1.0983468, y: -0.21764772, z: 0.2944794}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3774119539658034080
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613673983563617027}
-  m_Mesh: {fileID: 8672232814509453317, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &3780970368543822862
 GameObject:
   m_ObjectHideFlags: 0
@@ -3965,8 +3234,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-=======
 --- !u!23 &3815452243689523174
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4009,7 +3276,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &3824585992362219294
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4018,8 +3284,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2899628918969608508}
   m_Mesh: {fileID: 6068772444842324827, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
-=======
 --- !u!4 &3848244122332912040
 Transform:
   m_ObjectHideFlags: 0
@@ -4035,7 +3299,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 543450652843694385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &3859034858831949575
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4078,30 +3341,12 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
---- !u!33 &3960105534710226256
-MeshFilter:
-=======
 --- !u!1 &3953092441103144518
 GameObject:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 3229208558912431823}
-  m_Mesh: {fileID: -112870951435736945, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
---- !u!33 &4017083020895823831
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5286119964924159952}
-  m_Mesh: {fileID: 4043518072847868366, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
---- !u!4 &4017563245373634359
-=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8106013254698811114}
@@ -4115,22 +3360,11 @@ MeshFilter:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3965550461881538010
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 6991467689842281910}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: 0.41775084, y: 0.05035719, z: -0.23413348}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-=======
   m_GameObject: {fileID: 8532734745787179150}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000007770188, y: -0.18315114, z: 0.000000027697416, w: 0.9830848}
@@ -4139,7 +3373,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 543450652843694385}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4025093736079940188
 Transform:
@@ -4156,8 +3389,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0.596, y: 27.116, z: 0.556}
-<<<<<<< HEAD
-=======
 --- !u!33 &4153486439061030971
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4166,7 +3397,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 974650933026924283}
   m_Mesh: {fileID: 3694960213824521662, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &4181438789474334482
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4209,47 +3439,12 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
---- !u!1 &4237991143694818205
-GameObject:
-=======
 --- !u!23 &4346472440569109625
 MeshRenderer:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8885148958666716555}
-  - component: {fileID: 590989485692364913}
-  - component: {fileID: 2918523306926338853}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1905
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!33 &4346565712023751494
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2789357841998639566}
-  m_Mesh: {fileID: 910790345658665966, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
---- !u!33 &4355628624891691590
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 844188138917116846}
-  m_Mesh: {fileID: -3017083471223079412, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
   m_GameObject: {fileID: 5691255231319332884}
   m_Enabled: 1
   m_CastShadows: 1
@@ -4286,7 +3481,6 @@ MeshFilter:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &4367038807920529112
 Transform:
   m_ObjectHideFlags: 0
@@ -4317,8 +3511,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0.003, y: -19.559, z: 0.016}
-<<<<<<< HEAD
-=======
 --- !u!1 &4402809843402007522
 GameObject:
   m_ObjectHideFlags: 0
@@ -4337,7 +3529,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &4452511309431575176
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4380,8 +3571,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!1 &4497045177997735374
 GameObject:
   m_ObjectHideFlags: 0
@@ -4492,7 +3681,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &4612353641032605179
 GameObject:
   m_ObjectHideFlags: 0
@@ -4560,22 +3748,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!33 &4703104970789114526
-MeshFilter:
-=======
 --- !u!23 &4695121239405159547
 MeshRenderer:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 2220699951280958215}
-  m_Mesh: {fileID: -4112345489909448894, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
---- !u!1 &4820815513238026878
-=======
   m_GameObject: {fileID: 8532734745787179150}
   m_Enabled: 1
   m_CastShadows: 1
@@ -4655,7 +3833,6 @@ MeshRenderer:
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &4791657283816326439
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4663,24 +3840,14 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 5930438393589795311}
-  - component: {fileID: 942991096995841816}
-  - component: {fileID: 6916722316463507752}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1908
-=======
   - component: {fileID: 9176520267290938933}
   m_Layer: 0
   m_Name: "\u66F4\u591A\u7D20\u6750:\u7ED8\u56FE\u72D7\u6DD8\u5B9D\u5E97https://huitugou.taobao.com"
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-=======
 --- !u!33 &4825088596139782746
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4689,7 +3856,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6915561004726984340}
   m_Mesh: {fileID: 7654101181987815457, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &4842197323439976163
 Transform:
   m_ObjectHideFlags: 0
@@ -4755,59 +3921,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2733724323564581767}
   m_Mesh: {fileID: -4583568763908462314, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
---- !u!23 &4923001153907116080
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8885834954707041611}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: c3f97963af8c03b4c9bd6b942dab4234, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &4923384399458337220
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2531407359788771780}
-  m_Mesh: {fileID: 6302481336046637743, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &4973216338614454599
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4816,29 +3929,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6016092420621297199}
   m_Mesh: {fileID: 625534924325532577, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
---- !u!4 &4993026098794920381
-=======
 --- !u!4 &5004841516673681101
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 8628303162522486560}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: 0.8940573, y: -0.12255683, z: 0.23019443}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &5004153087155492043
-Transform:
-=======
   m_GameObject: {fileID: 7748397813961512782}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000007770188, y: -0.18315114, z: 0.000000027697416, w: 0.9830848}
@@ -4850,22 +3946,10 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &5013301175406494373
 MeshRenderer:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 844188138917116846}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: -0.17020446, y: 0.15539986, z: 0.2301946}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 6200308400941842295}
   m_Enabled: 1
   m_CastShadows: 1
@@ -4902,7 +3986,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &5044248932265933422
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4945,51 +4028,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
---- !u!23 &5114539799427827132
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 829810938626767981}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
-=======
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &5183717263162391272
 GameObject:
   m_ObjectHideFlags: 0
@@ -5039,26 +4077,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8671548710592076965}
   m_Mesh: {fileID: 1089295461637895280, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
---- !u!4 &5263467905761664600
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7004101254551261857}
-  serializedVersion: 2
-  m_LocalRotation: {x: -2.598083e-24, y: 0.16676888, z: -2.0423301e-17, w: 0.985996}
-  m_LocalPosition: {x: 1.0982312, y: -0.21764772, z: -0.29986936}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5286119964924159952
-=======
 --- !u!1 &5266066433763070404
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5066,61 +4085,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 255950031056289394}
-  - component: {fileID: 4017083020895823831}
-  - component: {fileID: 5647995271928330953}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1902
-=======
   - component: {fileID: 3848244122332912040}
   - component: {fileID: 6532148027209827945}
   - component: {fileID: 8381192498167234199}
   m_Layer: 0
   m_Name: huitugou_5463_06
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!4 &5315279049629335761
-Transform:
-=======
 --- !u!23 &5332902852300251456
 MeshRenderer:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 8885834954707041611}
-  serializedVersion: 2
-  m_LocalRotation: {x: 6.1232316e-17, y: 1, z: -6.1232316e-17, w: -0.00000043312576}
-  m_LocalPosition: {x: 0.5569986, y: -0.14355478, z: -0.0043233335}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &5389393603500256441
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5897285804556023128}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: 0.0004281616, y: -0.041867446, z: -0.0027592236}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 2784424855748267351}
   m_Enabled: 1
   m_CastShadows: 1
@@ -5157,7 +4137,6 @@ Transform:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &5399754920244836283
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5208,27 +4187,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1461247919658554596}
   m_Mesh: {fileID: 5061963627348287562, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
---- !u!1 &5457423202371876190
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1006951705596234059}
-  - component: {fileID: 1815976860726876714}
-  - component: {fileID: 7465760916936610929}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1914
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-=======
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &5475001818097015676
 Transform:
   m_ObjectHideFlags: 0
@@ -5244,8 +4202,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0.596, y: 27.116, z: 0.556}
-<<<<<<< HEAD
-=======
 --- !u!33 &5524982185160265013
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5311,7 +4267,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &5605341895085495986
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5362,55 +4317,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38240851294900096}
   m_Mesh: {fileID: 3831491169818823324, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
---- !u!23 &5647995271928330953
-MeshRenderer:
-=======
 --- !u!1 &5649781806213783863
 GameObject:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 5286119964924159952}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
-=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6711816124905403359}
@@ -5441,7 +4353,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &5696907979728461817
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5506,100 +4417,14 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 5061963627348287562, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
---- !u!23 &5754599915948478671
-MeshRenderer:
-=======
 --- !u!33 &5699545220323643672
 MeshFilter:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 6991467689842281910}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!23 &5757664518343913059
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1613673983563617027}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 7361109946382506935, guid: 5140869c6d30cf9439a6d613fd4e9e9a, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
-=======
   m_GameObject: {fileID: 3953092441103144518}
   m_Mesh: {fileID: 8868603828729521384, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &5761644486327491649
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5608,8 +4433,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7756550857120995896}
   m_Mesh: {fileID: -6287542439414435765, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
-=======
 --- !u!4 &5816653274741433099
 Transform:
   m_ObjectHideFlags: 0
@@ -5643,7 +4466,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &5820425645455339908
 Transform:
   m_ObjectHideFlags: 0
@@ -5659,31 +4481,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0.596, y: 27.116, z: 0.556}
-<<<<<<< HEAD
---- !u!1 &5897285804556023128
-GameObject:
-=======
 --- !u!4 &5886235619085514006
 Transform:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5389393603500256441}
-  - component: {fileID: 3158365450502730125}
-  - component: {fileID: 7567382739326127866}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1913
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-=======
   m_GameObject: {fileID: 6065619650974461541}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000007770188, y: -0.18315114, z: 0.000000027697416, w: 0.9830848}
@@ -5693,7 +4496,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 543450652843694385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &5905583184248665509
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5736,31 +4538,14 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
---- !u!4 &5930438393589795311
-Transform:
-=======
 --- !u!33 &5975960482504897253
 MeshFilter:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 4820815513238026878}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: 0.675654, y: -0.029904574, z: 0.23019446}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 2784424855748267351}
   m_Mesh: {fileID: -2136343235535438855, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &5977227983693960495
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5795,57 +4580,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!23 &6064204156185668352
-MeshRenderer:
-=======
 --- !u!1 &6065619650974461541
 GameObject:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 7469601896216437920}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &6095354012772046610
-MeshFilter:
-=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5886235619085514006}
@@ -5860,16 +4600,10 @@ MeshFilter:
   m_IsActive: 1
 --- !u!1 &6200308400941842295
 GameObject:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 7469601896216437920}
-  m_Mesh: {fileID: 5907932888851725831, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
---- !u!4 &6150317554314242741
-=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7001943317743423055}
@@ -5883,25 +4617,11 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &6298532123013980551
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 829810938626767981}
-  serializedVersion: 2
-  m_LocalRotation: {x: -2.105526e-17, y: -0.1719291, z: -9.958584e-17, w: 0.9851093}
-  m_LocalPosition: {x: 1.0971146, y: -0.21764772, z: 0.29817507}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &6167476244758195822
-MeshRenderer:
-=======
   m_GameObject: {fileID: 4402809843402007522}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000007770188, y: -0.18315114, z: 0.000000027697416, w: 0.9830848}
@@ -5913,52 +4633,12 @@ MeshRenderer:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6351600831158927021
 MeshFilter:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 2277455096322306970}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
-=======
   m_GameObject: {fileID: 2458531534381529711}
   m_Mesh: {fileID: -3357985094890280362, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &6359692573553184337
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6001,8 +4681,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!4 &6361231086196999017
 Transform:
   m_ObjectHideFlags: 0
@@ -6018,7 +4696,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 543450652843694385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &6475816311218678509
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6045,8 +4722,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-=======
 --- !u!33 &6532148027209827945
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6097,7 +4772,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &6611913786888781779
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6140,8 +4814,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!4 &6626844761677423791
 Transform:
   m_ObjectHideFlags: 0
@@ -6157,7 +4829,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 543450652843694385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &6654146191810054298
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6200,8 +4871,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!4 &6666098897451899656
 Transform:
   m_ObjectHideFlags: 0
@@ -6217,7 +4886,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 543450652843694385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &6704099780071923118
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6226,8 +4894,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6503589395515494282}
   m_Mesh: {fileID: 6290042532915036584, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
-=======
 --- !u!4 &6711816124905403359
 Transform:
   m_ObjectHideFlags: 0
@@ -6243,7 +4909,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 543450652843694385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &6722971339178170069
 Transform:
   m_ObjectHideFlags: 0
@@ -6281,8 +4946,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3831491169818823324, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
-=======
 --- !u!33 &6769039311721281257
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6299,7 +4962,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2221190779817726887}
   m_Mesh: {fileID: -836955787827675025, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &6881115892463475198
 GameObject:
   m_ObjectHideFlags: 0
@@ -6318,55 +4980,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!23 &6916722316463507752
-MeshRenderer:
-=======
 --- !u!1 &6915561004726984340
 GameObject:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 4820815513238026878}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
-=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6666098897451899656}
@@ -6379,7 +4998,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &6967329234637750707
 Transform:
   m_ObjectHideFlags: 0
@@ -6410,27 +5028,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: -0.012, y: 37.745, z: 0.012}
-<<<<<<< HEAD
---- !u!1 &6991467689842281910
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4017563245373634359}
-  - component: {fileID: 1311725564270561959}
-  - component: {fileID: 5754599915948478671}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1906
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-=======
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!23 &6998950934231104854
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6473,45 +5070,12 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
---- !u!1 &7004101254551261857
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5263467905761664600}
-  - component: {fileID: 1898142154466348940}
-  - component: {fileID: 1667783138190288419}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1900
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7007640631414990998
-=======
 --- !u!4 &7001943317743423055
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 2220699951280958215}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: -0.9048193, y: -0.12255683, z: 0.2301947}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 6200308400941842295}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0061920867, y: 0.23440231, z: 0.0034963312, w: 0.97211367}
@@ -6529,7 +5093,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7770117713723837484}
   m_Mesh: {fileID: -5262822830207142801, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &7074159793609874354
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6538,69 +5101,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6881115892463475198}
   m_Mesh: {fileID: -6094402655850574027, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
---- !u!4 &7117943770274477820
-Transform:
-=======
 --- !u!23 &7116819932108679617
 MeshRenderer:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 2277455096322306970}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: -0.669966, y: -0.042295054, z: -0.23413332}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &7144472064365251976
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2208619438186665928}
-  - component: {fileID: 7144472064365251977}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1899
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &7144472064365251977
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7144472064365251976}
-  m_Material: {fileID: 13400000, guid: c9bec0ecadc5ab6479d11776b9b63b5d, type: 2}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
---- !u!33 &7338060011589765785
-MeshFilter:
-=======
   m_GameObject: {fileID: 77769871133405273}
   m_Enabled: 1
   m_CastShadows: 1
@@ -6639,15 +5145,10 @@ MeshFilter:
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &7247907419266237360
 MeshRenderer:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 2974510487775178513}
-  m_Mesh: {fileID: 4010964280139955483, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
   m_GameObject: {fileID: 974650933026924283}
   m_Enabled: 1
   m_CastShadows: 1
@@ -6684,7 +5185,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &7352649637967223022
 GameObject:
   m_ObjectHideFlags: 0
@@ -6703,21 +5203,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!23 &7353083359933481504
-=======
 --- !u!23 &7421479936400815887
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 844188138917116846}
-=======
   m_GameObject: {fileID: 4402809843402007522}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -6731,95 +5223,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-<<<<<<< HEAD
-  - {fileID: 1383616663788342048, guid: 5140869c6d30cf9439a6d613fd4e9e9a, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!23 &7379753076190379036
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069752369297119781}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 4005d87725b3a7b4f94a51acb685424f, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!23 &7408077609187473169
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7750149937474604860}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
   - {fileID: 8748892135801146194, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6849,115 +5253,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8157988911783197460}
   m_Mesh: {fileID: -6120841055902421552, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
---- !u!23 &7465760916936610929
-MeshRenderer:
-=======
 --- !u!4 &7598625885096278012
 Transform:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 5457423202371876190}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &7469601896216437920
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8150381888652453825}
-  - component: {fileID: 6095354012772046610}
-  - component: {fileID: 6064204156185668352}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1901
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!23 &7567382739326127866
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5897285804556023128}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
-=======
   m_GameObject: {fileID: 2458531534381529711}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000007770188, y: -0.18315114, z: 0.000000027697416, w: 0.9830848}
@@ -6967,7 +5268,6 @@ MeshRenderer:
   m_Children: []
   m_Father: {fileID: 543450652843694385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &7676776820733367962
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7018,8 +5318,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!4 &7721358991328635762
 Transform:
   m_ObjectHideFlags: 0
@@ -7035,7 +5333,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 543450652843694385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &7747364635200520637
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7044,8 +5341,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 995192639490764175}
   m_Mesh: {fileID: 1672892705550696871, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
-=======
 --- !u!1 &7748397813961512782
 GameObject:
   m_ObjectHideFlags: 0
@@ -7064,7 +5359,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &7749445681350477014
 Transform:
   m_ObjectHideFlags: 0
@@ -7080,34 +5374,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
---- !u!1 &7750149937474604860
-GameObject:
-=======
 --- !u!33 &7752639961367968304
 MeshFilter:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 428970686334891338}
-  - component: {fileID: 42702063401585252}
-  - component: {fileID: 7408077609187473169}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1917
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-=======
   m_GameObject: {fileID: 5691255231319332884}
   m_Mesh: {fileID: 2642439375008643999, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &7756550857120995896
 GameObject:
   m_ObjectHideFlags: 0
@@ -7126,8 +5400,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-=======
 --- !u!1 &7770117713723837484
 GameObject:
   m_ObjectHideFlags: 0
@@ -7146,7 +5418,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &7967626984921652905
 Transform:
   m_ObjectHideFlags: 0
@@ -7162,69 +5433,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1362578976}
   m_LocalEulerAnglesHint: {x: 0, y: 68.805, z: 0}
-<<<<<<< HEAD
---- !u!23 &8035924907757722566
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3229208558912431823}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!4 &8150381888652453825
-=======
 --- !u!4 &8106013254698811114
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 7469601896216437920}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: 0.68037593, y: -0.042295054, z: -0.23413353}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   m_GameObject: {fileID: 3953092441103144518}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00000007770188, y: -0.18315114, z: 0.000000027697416, w: 0.9830848}
@@ -7242,7 +5456,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2981195736881579962}
   m_Mesh: {fileID: 3249402401332018764, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &8157988911783197460
 GameObject:
   m_ObjectHideFlags: 0
@@ -7303,8 +5516,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
-=======
 --- !u!23 &8192610351049819091
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7362,7 +5573,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 543450652843694385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!4 &8255228428885827175
 Transform:
   m_ObjectHideFlags: 0
@@ -7393,30 +5603,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1495851531}
   m_LocalEulerAnglesHint: {x: 0.596, y: 27.116, z: 0.556}
-<<<<<<< HEAD
---- !u!4 &8269013223976195627
-Transform:
-=======
 --- !u!23 &8381192498167234199
 MeshRenderer:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 3179173659948008871}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: -0.6746886, y: -0.029904574, z: 0.23019467}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &8311065863281770439
-Transform:
-=======
   m_GameObject: {fileID: 5266066433763070404}
   m_Enabled: 1
   m_CastShadows: 1
@@ -7455,24 +5647,10 @@ Transform:
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &8501807935413743027
 MeshRenderer:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 2974510487775178513}
-  serializedVersion: 2
-  m_LocalRotation: {x: 7.084817e-17, y: 0.9851093, z: -7.084817e-17, w: 0.17192912}
-  m_LocalPosition: {x: -1.0986841, y: -0.21764772, z: -0.2962524}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &8416402267475434692
-MeshFilter:
-=======
   m_GameObject: {fileID: 2221190779817726887}
   m_Enabled: 1
   m_CastShadows: 1
@@ -7511,30 +5689,10 @@ MeshFilter:
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &8532734745787179150
 GameObject:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 8885834954707041611}
-  m_Mesh: {fileID: -3188419600672489105, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
---- !u!4 &8464953017314297265
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069752369297119781}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: -0.56144273, y: -0.14355478, z: -0.0017010943}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3965550461881538010}
@@ -7547,7 +5705,6 @@ Transform:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &8570910722989765013
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7579,27 +5736,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8842285374437336379}
   m_Mesh: {fileID: 4273599587601715127, guid: d8c06d2c55ed58e41886897aa7f3303b, type: 3}
-<<<<<<< HEAD
---- !u!1 &8628303162522486560
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4993026098794920381}
-  - component: {fileID: 9177443837021405509}
-  - component: {fileID: 3536754169793905468}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1903
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-=======
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &8671548710592076965
 GameObject:
   m_ObjectHideFlags: 0
@@ -7636,17 +5772,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!33 &8783512701996996561
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069752369297119781}
-  m_Mesh: {fileID: -1033886973925856307, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &8842285374437336379
 GameObject:
   m_ObjectHideFlags: 0
@@ -7665,68 +5790,7 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
---- !u!23 &8871834210082796424
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2220699951280958215}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!4 &8885148958666716555
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4237991143694818205}
-  serializedVersion: 2
-  m_LocalRotation: {x: -1.6543612e-23, y: -0, z: -1.2246469e-16, w: 1}
-  m_LocalPosition: {x: 0.41302824, y: 0.062747665, z: 0.23019451}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2208619438186665928}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8885834954707041611
-=======
 --- !u!1 &8941993022557673209
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7734,17 +5798,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 5315279049629335761}
-  - component: {fileID: 8416402267475434692}
-  - component: {fileID: 4923001153907116080}
-  m_Layer: 0
-  m_Name: yanglintaobao888_1915
-=======
   - component: {fileID: 7721358991328635762}
   m_Layer: 0
   m_Name: "\u66F4\u591A\u7D20\u6750:\u7ED8\u56FE\u72D7\u827A\u7D20\u7F51https://huitugou.com"
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7792,51 +5848,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
-<<<<<<< HEAD
---- !u!23 &9123600205042174933
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2789357841998639566}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 6522423528624873099, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
-=======
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!33 &9138192761508783930
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7882,21 +5893,12 @@ MonoBehaviour:
   collider_2D: {fileID: 0}
   collider_3D: {fileID: 9138192761508783931}
   player: {fileID: 1709448968}
-<<<<<<< HEAD
---- !u!33 &9177443837021405509
-MeshFilter:
-=======
 --- !u!4 &9176520267290938933
 Transform:
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 8628303162522486560}
-  m_Mesh: {fileID: -4442630363059952447, guid: 24beca2aa26302648a7bbb3b40e4c0b8, type: 3}
-=======
   m_GameObject: {fileID: 4791657283816326439}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0000002602743, y: 0, z: -0, w: 1}
@@ -7906,7 +5908,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 543450652843694385}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
->>>>>>> parent of 49c154a (修改了一些材质，导入桥模型但是加不了碰撞体啊啊啊啊啊啊啊啊)
 --- !u!1 &9200403836334900094
 GameObject:
   m_ObjectHideFlags: 0
