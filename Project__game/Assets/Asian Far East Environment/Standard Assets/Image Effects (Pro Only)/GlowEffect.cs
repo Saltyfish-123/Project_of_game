@@ -100,11 +100,11 @@ public class GlowEffect : MonoBehaviour
 	protected void Start()
 	{
 		// Disable if we don't support image effects
-		if (!SystemInfo.supportsImageEffects)
-		{
-			enabled = false;
-			return;
-		}
+		//if (!SystemInfo.supportsImageEffects)
+		//{
+		//	enabled = false;
+		//	return;
+		//}  //”¿’Ê Ω
 		
 		// Disable the effect if no downsample shader is setup
 		if( downsampleShader == null )

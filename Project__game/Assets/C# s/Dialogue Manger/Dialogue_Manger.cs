@@ -9,6 +9,7 @@ using Unity.VisualScripting;
 
 public class DialogueManger : MonoBehaviour
 {
+    [SerializeField] private GameObject Player_Camera; 
     [SerializeField] private GameObject dialogueParent;//panel of Dialogue
     [SerializeField] private Text dialogueText;
     [SerializeField] private Button option1Button;
@@ -29,7 +30,7 @@ public class DialogueManger : MonoBehaviour
     private void Start()
     {
         dialogueParent.SetActive(false);
-        playerCamera = Camera.main.transform;
+        playerCamera = Player_Camera.transform;
     }
 
 
@@ -81,7 +82,10 @@ public class DialogueManger : MonoBehaviour
             FirstPlayercontroll.enabled = true;
         }
 
-        player.GetComponentInChildren<Camera>().transform.localRotation = Quaternion.Euler(0, 0, 0);
+        //player.GetComponentInChildren<Camera>().transform.localRotation = Quaternion.Euler(0, 0, 0);
+
+        Player_Camera.transform.localScale = Vector3.zero;
+        Player_Camera.transform.localRotation = Quaternion.Euler(0, 0, 0);
 
         Cursor.lockState = CursorLockMode.Locked;//≤ªΩ˚”√ Û±Í
         Cursor.visible = false;
