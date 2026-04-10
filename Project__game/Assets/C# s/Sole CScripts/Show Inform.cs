@@ -22,6 +22,7 @@ public class ShowInform : MonoBehaviour
         }
         ChangeEvent.AddListener(Show_Inform);
     }
+    //单例化
 
     public static int PIN_self;
 
@@ -29,7 +30,7 @@ public class ShowInform : MonoBehaviour
     [SerializeField] private ObjectsManger objectsManger;
     [SerializeField] private TMP_Text Name_OfObject;
     [SerializeField] private TMP_Text Introduction_Ofobject;
-    [SerializeField] private Image Image_Ofobject;
+    [SerializeField] private GameObject Image_Ofobject;
     [SerializeField] private Button Chose_theObject;
 
     [SerializeField] private GameObject Panel_OfShow;
@@ -40,7 +41,7 @@ public class ShowInform : MonoBehaviour
     private void Show_Inform()
     {
 
-        if (objectsManger != null)
+        if (objectsManger == null)
         {
             Debug.Log("未赋值脚本信息");
         }
@@ -55,7 +56,8 @@ public class ShowInform : MonoBehaviour
         Object_inform Show_inform = objectsManger.GetInformFromId(PIN_self);
         Name_OfObject.text = Show_inform.name;
         Introduction_Ofobject.text = Show_inform.description;
-        Image_Ofobject.sprite = Show_inform.image;
+        UnityEngine.UI.Image imageComponent = Image_Ofobject.GetComponent<UnityEngine.UI.Image>();
+        imageComponent.sprite = Show_inform.image;
         //修改显示的信息
     }
 
