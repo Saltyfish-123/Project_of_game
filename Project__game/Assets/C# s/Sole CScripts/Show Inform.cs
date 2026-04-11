@@ -109,6 +109,7 @@ public class ShowInform : MonoBehaviour
         if (get_PIN == need_PIN)
         {
             Debug.Log("∆•≈‰≥…π¶");
+            targetNPC.NPc_event?.Invoke();
         }
         else
         {
