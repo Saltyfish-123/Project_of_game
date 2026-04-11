@@ -31319,7 +31319,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565507664}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.024536572, y: 0.9378264, z: -0.33953896, w: -0.06777144}
+  m_LocalRotation: {x: -0.024536582, y: 0.93782645, z: -0.33953893, w: -0.06777147}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -34328,9 +34328,6 @@ MonoBehaviour:
   triggerCooldown: 5
   targetSceneName: Scene2
   sceneSwitchDelay: 2
-  CharacterMovemet: {fileID: 0}
-  bridgeAnimator: {fileID: 363941763}
-  bridgeAnimation: {fileID: 363941765}
   fadeCanvasGroup: {fileID: 1961652742}
   BlackImage: {fileID: 880182073}
   fadeDuration: 1.5
@@ -40182,7 +40179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5281785fbe32be4488391fbe4acda0d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useCharacterForward: 0
+  useCharacterForward: 1
   sprintJoystick: 332
   sprintKeyboard: 304
 --- !u!54 &709251780
@@ -47022,7 +47019,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 811622306}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.023299789, y: 0.9438473, z: -0.32242417, w: -0.068206556}
+  m_LocalRotation: {x: -0.023299785, y: 0.9438473, z: -0.3224242, w: -0.068206534}
   m_LocalPosition: {x: 0, y: -0.0000009536743, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -89860,7 +89857,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484018148}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.022058582, y: 0.94954115, z: -0.30524847, w: -0.06861798}
+  m_LocalRotation: {x: -0.022058588, y: 0.94954115, z: -0.30524844, w: -0.068618}
   m_LocalPosition: {x: 0, y: -0.0000009536743, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

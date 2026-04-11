@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using System.Collections;
+using System;
 
 
 public class BridgeTrigger : MonoBehaviour
@@ -24,11 +25,7 @@ public class BridgeTrigger : MonoBehaviour
     [SerializeField] private string targetSceneName = "Scene2";// 目标场景名称
     [SerializeField] private float sceneSwitchDelay = 2f;// 场景切换前的延迟时间
 
-    [Header("组件引用")]
-    public MonoBehaviour CharacterMovemet;
-    [SerializeField] private Animator bridgeAnimator;// 桥动画控制器
-    [SerializeField] private Animation bridgeAnimation;
-
+   
     [SerializeField] private CanvasGroup fadeCanvasGroup;// 用于渐黑效果的CanvasGroup
     [SerializeField] private Image BlackImage;
     [SerializeField] private float fadeDuration = 1.5f;// 渐黑持续时间
@@ -40,6 +37,11 @@ public class BridgeTrigger : MonoBehaviour
     {
         onAnimationStartEvent.AddListener(PlayBridgeAnimation);
         onAnimationCompleteEvent.AddListener(StartFadeToBlack);
+    }
+
+    private void PlayBridgeAnimation()
+    {
+        throw new NotImplementedException();
     }
 
     private void OnTriggerEnter(Collider other)// 触发器进入
@@ -110,34 +112,7 @@ public class BridgeTrigger : MonoBehaviour
         }
     }
 
-    // 提供给Inspector绑定的事件方法
-    public void LockPlayer()
-    {
-        if (CharacterMovemet != null)// 锁定玩家控制器
-        {
-            CharacterMovemet.enabled = false;
-            Debug.Log("玩家控制器已锁定");
-        }
-    }
-
-    public void UnlockPlayer()
-    {
-        if (CharacterMovemet != null)// 解锁玩家控制器
-        {
-            CharacterMovemet.enabled = true;
-            Debug.Log("玩家控制器已解锁");
-        }
-    }
-
-    public void PlayBridgeAnimation()// 播放桥动画
-    {
-        if (bridgeAnimator != null)
-        {
-            bridgeAnimator.SetTrigger("BridgeCG");// 触发桥动画
-            Debug.Log("播放桥动画");
-        }
-    }
-
+   
     public void StartFadeToBlack()// 开始渐黑
     {
         if (BlackImage != null)
@@ -158,15 +133,15 @@ public class BridgeTrigger : MonoBehaviour
         }
 
 
-        //float timer = 0f;// 初始化计时器
-        //while (timer < fadeDuration)// 在fadeDuration时间内逐渐增加alpha值
-        //{
-        //    timer += Time.deltaTime;// 计算器++
-        //    float alpha = 0f;
-        //    fadeCanvasGroup.alpha = alpha;// 确保最终alpha值为1，完全覆盖屏幕
-        //    alpha = Mathf.Lerp(0f, 1f, timer / fadeDuration);// 将alpha值应用到CanvasGroup
-        //    yield return null;// 等待下一帧继续执行
-        //}
+        float timer = 0f;// 初始化计时器
+        while (timer < fadeDuration)// 在fadeDuration时间内逐渐增加alpha值
+        {
+            timer += Time.deltaTime;// 计算器++
+            float alpha = 0f;
+            fadeCanvasGroup.alpha = alpha;// 确保最终alpha值为1，完全覆盖屏幕s
+            alpha = Mathf.Lerp(0f, 1f, timer / fadeDuration);// 将alpha值应用到CanvasGroup
+            yield return null;// 等待下一帧继续执行
+        }
         Debug.Log("场景已完全渐黑");
     }
 }
