@@ -33,6 +33,7 @@ public class ObjectsManger : MonoBehaviour
 public class Object_informs
 {
     public int id;
+    public int group;
     public Object_inform object_inform;
 }
 

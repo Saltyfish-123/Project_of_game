@@ -6,6 +6,7 @@ public class Object_Click : MonoBehaviour
 {
     [SerializeField] GameObject Panel_inform;
     [SerializeField] private int id_self;
+    [SerializeField] private int group_self;
 
     private void OnMouseDown()
     {
@@ -22,7 +23,7 @@ public class Object_Click : MonoBehaviour
         }
         else
         {
-            ShowInform.ShowObjectInfo(id_self);
+            ShowInform.ShowObjectInfo(id_self,group_self);
         }
     }
 }

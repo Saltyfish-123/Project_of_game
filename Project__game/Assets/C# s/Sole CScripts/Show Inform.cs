@@ -35,12 +35,17 @@ public class ShowInform : MonoBehaviour
 
     [SerializeField] private GameObject Panel_OfShow;
     //信息设置
+    [Header("检查界面")]
+    [SerializeField] private GameObject CheckWorror_Panel;
+
+
+    private static int get_PIN ;
+    private static int get_group;
 
     public UnityEvent ChangeEvent;
     
     private void Show_Inform()
     {
-
         if (objectsManger == null)
         {
             Debug.Log("未赋值脚本信息");
@@ -67,8 +72,10 @@ public class ShowInform : MonoBehaviour
         ChangeEvent?.Invoke();
     }
 
-    public static void ShowObjectInfo(int id)
+    public static void ShowObjectInfo(int id,int group)
     {
+        get_PIN = id;
+        get_group = group;
         if (Instance != null)
         {
             Instance.TriggerEvent(id);
@@ -76,6 +83,44 @@ public class ShowInform : MonoBehaviour
         else
         {
             Debug.Log("ShowInform实例未找到");
+        }
+    }
+
+    public void CheckPIN_Button()
+    {
+        if (PINManager.NPC_outs == null)
+        {
+            Debug.LogError("NPC_outs列表未初始化");
+            return;
+        }
+        var targetNPC = PINManager.NPC_outs.Find(npc => npc.NPC_group == get_group);
+
+        if (targetNPC == null)
+        {
+            Debug.LogError($"找不到NPC_group为{get_group}的NPC");
+            if (CheckWorror_Panel != null)
+            {
+                CheckWorror_Panel.SetActive(true);
+            }
+            return;
+        }
+
+        int need_PIN = targetNPC.Need_PIN;
+        if (get_PIN == need_PIN)
+        {
+            Debug.Log("匹配成功");
+        }
+        else
+        {
+            if (CheckWorror_Panel != null)
+            {
+                CheckWorror_Panel.SetActive(true);
+            }
+            else
+            {
+                Debug.Log("没有给检查错误界面赋值");
+            }
+
         }
     }
 }
