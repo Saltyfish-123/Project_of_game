@@ -1922,7 +1922,7 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 1
-          m_CallState: 2
+          m_CallState: 0
         - m_Target: {fileID: 625399056}
           m_TargetAssemblyTypeName: PINManager, Assembly-CSharp
           m_MethodName: TurnNextNPC
@@ -1953,7 +1953,7 @@ MonoBehaviour:
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 1
-          m_CallState: 2
+          m_CallState: 0
   Player: {fileID: 1551248472}
   Resert_Location: {fileID: 86324978}
 --- !u!1 &627243344
@@ -2912,7 +2912,7 @@ MonoBehaviour:
   m_UpdateMethod: 2
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
-    m_Style: 1
+    m_Style: 0
     m_Time: 2
     m_CustomCurve:
       serializedVersion: 2
@@ -5436,7 +5436,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b42d384cba5137a4298e777be9d0f6e9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 64.8
+      value: 64.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b42d384cba5137a4298e777be9d0f6e9, type: 3}
       propertyPath: m_LocalPosition.y
