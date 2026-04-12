@@ -36,7 +36,6 @@ public class PINManager : MonoBehaviour
 
     public void TurnNextNPC()
     {
-        sortedNPCs[currentNPCIndex].NPc_event?.Invoke();
 
         if (sortedNPCs.Count == 0)
         {
