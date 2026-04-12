@@ -2137,7 +2137,7 @@ MonoBehaviour:
   NPC_s:
   - name: "\u82CF\u8001\u5148\u751F"
     NPC_group: 1
-    Need_PIN: 2
+    Need_PIN: 0
     model_NPC: {fileID: 918367546}
     NPc_event:
       m_PersistentCalls:
@@ -2168,7 +2168,7 @@ MonoBehaviour:
           m_CallState: 2
   - name: "\u6797\u5A18\u5B50"
     NPC_group: 2
-    Need_PIN: 4
+    Need_PIN: 1
     model_NPC: {fileID: 1904839795}
     NPc_event:
       m_PersistentCalls:
@@ -2185,7 +2185,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 0
-        - m_Target: {fileID: 625399053}
+        - m_Target: {fileID: 502486244}
           m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
           m_Mode: 6
@@ -3558,6 +3558,214 @@ Transform:
   m_Children: []
   m_Father: {fileID: 142381019}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1226470219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1226470220}
+  - component: {fileID: 1226470224}
+  - component: {fileID: 1226470223}
+  - component: {fileID: 1226470222}
+  - component: {fileID: 1226470221}
+  m_Layer: 0
+  m_Name: NPC2 Trigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1226470220
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226470219}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1904839799}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1226470221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226470219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74d06e1d5b5dd754e9d64c3f6178f7d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueStrings:
+  - text: "\u6211\u5BB6\u5B85\u9662\u65B0\u4FEE\uFF0C\u524D\u5EAD\u4E8C\u95E8\u8FDF\u8FDF\u672A\u5B9A\uFF0C\u5BB6\u4E2D\u89C4\u77E9\u8BB2\u7A76\u5185\u5916\u6709\u522B\uFF0C\u9700\u5F97\u4E00\u4EF6\u4F53\u9762\u7269\u4EF6\u505A\u9694\u65AD\uFF0C\u52B3\u70E6\u4E2D\u4ECB\u5C0F\u54E5\u5E2E\u6211\u7504\u9009\u4E00\u4E8C\u3002"
+    isEnd: 0
+    isQuestion: 0
+    answerOptiong1: 
+    answerOptiong2: 
+    option1IndexJump: 0
+    option2IndexJump: 0
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: "\u6211\u8981\u7684\u5E76\u975E\u89C2\u666F\u7EB3\u51C9\u7684\u4EAD\u53F0\uFF0C\u800C\u662F\u5782\u82B1\u95E8\u3002\u6B64\u95E8\u4E3A\u5B85\u9662\u4E8C\u95E8\u7CBE\u9AD3\uFF0C\u95E8\u6A90\u5782\u82B1\u67F1\u96D5\u82B1\u7CBE\u81F4\uFF0C\u6731\u6F06\u63CF\u91D1\uFF0C\u65E2\u906E\u9662\u5185\u666F\u81F4\uFF0C\u5B88\u5185\u5916\u793C\u5236\uFF0C\u53C8\u663E\u4E16\u5BB6\u6C14\u5EA6\uFF0C\u662F\u5B85\u9662\u5FC5\u4E0D\u53EF\u5C11\u7684\u95E8\u9762\uFF0C\u7EDD\u975E\u516D\u89D2\u4EAD\u8FD9\u7C7B\u95F2\u7528\u4E4B\u7269\u53EF\u6BD4\u3002"
+    isEnd: 0
+    isQuestion: 1
+    answerOptiong1: 
+    answerOptiong2: 
+    option1IndexJump: 0
+    option2IndexJump: 0
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1552106523}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - text: "\u65E0\u8BBA\u662F\u5317\u65B9\u516D\u89D2\u4EAD\uFF0C\u8FD8\u662F\u5BFB\u5E38\u516D\u89D2\u4EAD\uFF0C\u7686\u4E3A\u89C2\u666F\u4F11\u61A9\u6240\u7528\uFF0C\u4E07\u4E07\u4E0D\u80FD\u505A\u5B85\u9662\u4E8C\u95E8\uFF0C\u5931\u4E86\u793C\u6570\u8FD8\u60F9\u4EBA\u803B\u7B11\uFF0C\u4E07\u4E07\u4E0D\u53EF\u5F04\u9519\u3002"
+    isEnd: 0
+    isQuestion: 1
+    answerOptiong1: 
+    answerOptiong2: 
+    option1IndexJump: 0
+    option2IndexJump: 0
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1552106523}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - text: "\u6B64\u4E8B\u5173\u4E4E\u5B85\u9662\u4F53\u9762\uFF0C\u4F60\u53EA\u9700\u5BFB\u6765\u5408\u89C4\u77E9\u7684\u5782\u82B1\u95E8\u4FBF\u597D\uFF0C\u5207\u83AB\u62FF\u9519\u4E86\u7269\u4EF6\u3002"
+    isEnd: 1
+    isQuestion: 1
+    answerOptiong1: "\u5A18\u5B50\u653E\u5FC3\uFF0C\u8FD9\u5C31\u4E3A\u60A8\u5907\u59A5\u5782\u82B1\u95E8"
+    answerOptiong2: 
+    option1IndexJump: -1
+    option2IndexJump: 0
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1552106523}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  NpcTransform: {fileID: 1904839799}
+--- !u!65 &1226470222
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226470219}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1226470223
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226470219}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1226470224
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226470219}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1276484175
 GameObject:
   m_ObjectHideFlags: 0
@@ -3759,17 +3967,17 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5f7445531fb12104a9221a9a36fd1d24, type: 3}
-    m_FontSize: 78
+    m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 3
     m_MaxSize: 166
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.2
   m_Text: This is a Test
 --- !u!1 &1341755626
 GameObject:
@@ -5355,7 +5563,8 @@ Transform:
   m_LocalPosition: {x: 36.113, y: 1.35, z: 20.028}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1226470220}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1914498853
