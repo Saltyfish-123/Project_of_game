@@ -4402,7 +4402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueStrings:
-  - text: "\u6211\u5BB6\u5B85\u9662\u65B0\u4FEE\uFF0C\u524D\u5EAD\u4E8C\u95E8\u8FDF\u8FDF\u672A\u5B9A\uFF0C\u5BB6\u4E2D\u89C4\u77E9\u8BB2\u7A76\u5185\u5916\u6709\u522B\uFF0C\u9700\u5F97\u4E00\u4EF6\u4F53\u9762\u7269\u4EF6\u505A\u9694\u65AD\uFF0C\u52B3\u70E6\u4E2D\u4ECB\u5C0F\u54E5\u5E2E\u6211\u7504\u9009\u4E00\u4E8C\u3002"
+  - text: "\u6211\u8FD9\u5B85\u5B50\u4E00\u76F4\u7F3A\u4E2A\u80FD\u5206\u6E05\u5185\u5916\u9662\u843D\u7684\u95E8\u6237"
     isEnd: 0
     isQuestion: 0
     answerOptiong1: 
@@ -4415,8 +4415,8 @@ MonoBehaviour:
     endDialogueEvent:
       m_PersistentCalls:
         m_Calls: []
-  - text: "\u6211\u8981\u7684\u5E76\u975E\u89C2\u666F\u7EB3\u51C9\u7684\u4EAD\u53F0\uFF0C\u800C\u662F\u5782\u82B1\u95E8\u3002\u6B64\u95E8\u4E3A\u5B85\u9662\u4E8C\u95E8\u7CBE\u9AD3\uFF0C\u95E8\u6A90\u5782\u82B1\u67F1\u96D5\u82B1\u7CBE\u81F4\uFF0C\u6731\u6F06\u63CF\u91D1\uFF0C\u65E2\u906E\u9662\u5185\u666F\u81F4\uFF0C\u5B88\u5185\u5916\u793C\u5236\uFF0C\u53C8\u663E\u4E16\u5BB6\u6C14\u5EA6\uFF0C\u662F\u5B85\u9662\u5FC5\u4E0D\u53EF\u5C11\u7684\u95E8\u9762\uFF0C\u7EDD\u975E\u516D\u89D2\u4EAD\u8FD9\u7C7B\u95F2\u7528\u4E4B\u7269\u53EF\u6BD4\u3002"
-    isEnd: 0
+  - text: "\u6700\u597D\u6709\u5782\u83B2\u67F1\u88C5\u9970\u7684\uFF0C\u770B\u7740\u6C14\u6D3E\u4E9B\uFF0C\u80FD\u4F53\u73B0\u54B1\u5BB6\u7684\u89C4\u77E9\u548C\u4F53\u9762\uFF0C\u8FD8\u5F97\u6709\u96D5\u6881\u753B\u680B\u7684\u90A3\u79CD\u7CBE\u81F4\u611F\u3002"
+    isEnd: 1
     isQuestion: 0
     answerOptiong1: 
     answerOptiong2: 
@@ -4466,7 +4466,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - text: "\u6B64\u4E8B\u5173\u4E4E\u5B85\u9662\u4F53\u9762\uFF0C\u4F60\u53EA\u9700\u5BFB\u6765\u5408\u89C4\u77E9\u7684\u5782\u82B1\u95E8\u4FBF\u597D\uFF0C\u5207\u83AB\u62FF\u9519\u4E86\u7269\u4EF6\u3002"
-    isEnd: 1
+    isEnd: 0
     isQuestion: 0
     answerOptiong1: "\u5A18\u5B50\u653E\u5FC3\uFF0C\u8FD9\u5C31\u4E3A\u60A8\u5907\u59A5\u5782\u82B1\u95E8"
     answerOptiong2: 
@@ -5018,6 +5018,7 @@ GameObject:
   - component: {fileID: 1385786865}
   - component: {fileID: 1385786864}
   - component: {fileID: 1385786867}
+  - component: {fileID: 1385786868}
   m_Layer: 0
   m_Name: NPC3 Trigger
   m_TagString: Untagged
@@ -5124,7 +5125,59 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueStrings:
-  - text: '!!!'
+  - text: '!!!!!!!!!!!!!!!!!!'
+    isEnd: 0
+    isQuestion: 0
+    answerOptiong1: 
+    answerOptiong2: 
+    option1IndexJump: 0
+    option2IndexJump: 0
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: "\u5949\u5929\u627F\u8FD0\u7687\u5E1D"
+    isEnd: 0
+    isQuestion: 0
+    answerOptiong1: 
+    answerOptiong2: 
+    option1IndexJump: 0
+    option2IndexJump: 0
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: "\u8BCF\u66F0\uFF1A\u957F\u5B89\u705E\u6865\u5E74\u4E45\u5931\u4FEE\uFF0C\u963B\u788D\u4EAC\u757F\u4EA4\u901A\uFF0C\u6709\u635F\u5929\u5BB6\u5A01\u4EEA\u3002\u95FB\u5C14\u7CBE\u901A\u8425\u9020\uFF0C\u7279\u547D\u5C14\u5373\u523B\u8D74\u957F\u5B89\uFF0C\u7528\u73B0\u6709\u6750\u6599\u5C06\u6865\u4F53\u62FC\u63A5\u4FEE\u590D\u3002\u9650\u4E09\u6708\u5185\u5B8C\u5DE5\uFF0C\u82E5\u5EF6\u8BEF\u6216\u6577\u884D\uFF0C\u5B9A\u65A9\u4E0D\u9976\u3002"
+    isEnd: 0
+    isQuestion: 0
+    answerOptiong1: 
+    answerOptiong2: 
+    option1IndexJump: 0
+    option2IndexJump: 0
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: "\u94A6\u6B64\uFF01"
+    isEnd: 0
+    isQuestion: 0
+    answerOptiong1: 
+    answerOptiong2: 
+    option1IndexJump: 0
+    option2IndexJump: 0
+    startDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    endDialogueEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - text: "\u5723\u65E8\u5DF2\u4E0B\uFF0C\u5C14\u901F\u901F\u968F\u54B1\u5BB6\u542F\u7A0B\u3002\u5DE5\u90E8\u5DF2\u5907\u597D\u6240\u6709\u77F3\u6599\u6784\u4EF6\uFF0C\u5C14\u53EA\u9700\u6309\u56FE\u62FC\u63A5\uFF0C\u4E0D\u5F97\u6709\u8BEF\u3002\u82E5\u6562\u63A8\u8BFF\uFF0C\u5168\u5BB6\u53D1\u914D\u5145\u519B\u3002\u8FD8\u4E0D\u5FEB\u8D70\uFF1F"
     isEnd: 1
     isQuestion: 0
     answerOptiong1: 
@@ -5138,6 +5191,20 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   NpcTransform: {fileID: 0}
+--- !u!114 &1385786868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385786862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f2b04ad4bd7cd045b85fbfade8ec8be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetSceneName: Scene3
+  delayBeforeJump: 13
 --- !u!1 &1392970334
 GameObject:
   m_ObjectHideFlags: 0
