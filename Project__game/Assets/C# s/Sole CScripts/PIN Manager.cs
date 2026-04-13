@@ -43,6 +43,10 @@ public class PINManager : MonoBehaviour
             return;
         }
 
+        Player.transform.position = Resert_Location.transform.position;
+        Player.transform.rotation = Resert_Location.transform.rotation;
+        //重置玩家位置防止直接触发对话
+
         // 停用当前NPC
         if (currentNPCIndex >= 0 && currentNPCIndex < sortedNPCs.Count)
         {
@@ -51,6 +55,7 @@ public class PINManager : MonoBehaviour
                 sortedNPCs[currentNPCIndex].model_NPC.SetActive(false);
             }
         }
+
 
         // 移动到下一个NPC
         currentNPCIndex++;
@@ -62,10 +67,6 @@ public class PINManager : MonoBehaviour
             {
                 Debug.Log("重置的位置没有设置");
             }
-
-            Player.transform.position = Resert_Location.transform.position;
-            Player.transform.rotation = Resert_Location.transform.rotation;
-            //重置玩家位置防止直接触发对话
 
             NPC_Informs nextNPC = sortedNPCs[currentNPCIndex];
 
