@@ -3,6 +3,7 @@ using UnityEngine;
 public class DimensionPlayerController : MonoBehaviour
 {
     public bool is2D;
+    [SerializeField] private GameObject _resert_position;
     private void SwitchTo2D()
     {
         is2D = true;
@@ -39,7 +40,11 @@ public class DimensionPlayerController : MonoBehaviour
                 Cursor.visible = true;
             }
         }
-
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            gameObject.transform.rotation = _resert_position.transform.rotation;
+            gameObject.transform.position = _resert_position.transform.position;
+        }
         var h = Input.GetAxis("Horizontal");
         var v= Input.GetAxis("Vertical");
         var movement = Vector3.zero;
@@ -73,4 +78,5 @@ public class DimensionPlayerController : MonoBehaviour
     {
         return Physics.Raycast(transform.position, Vector3.down, 1.1f);
     }
+
 }
