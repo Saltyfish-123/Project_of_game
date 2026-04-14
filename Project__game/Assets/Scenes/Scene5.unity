@@ -596,7 +596,7 @@ MonoBehaviour:
   fadeOutDuration: 0.7
   oneTimeOnly: 1
   triggerRadius: 6.17
-  fontSize: 30
+  fontSize: 40
   textColor: {r: 1, g: 1, b: 1, a: 1}
   bgColor: {r: 0, g: 0, b: 0, a: 0.7}
 --- !u!65 &114644221
@@ -1745,7 +1745,7 @@ MonoBehaviour:
   fadeOutDuration: 0.7
   oneTimeOnly: 1
   triggerRadius: 6.17
-  fontSize: 30
+  fontSize: 40
   textColor: {r: 1, g: 1, b: 1, a: 1}
   bgColor: {r: 0, g: 0, b: 0, a: 0.7}
 --- !u!65 &342982577
