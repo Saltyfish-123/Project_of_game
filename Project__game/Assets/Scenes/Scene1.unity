@@ -34163,6 +34163,7 @@ GameObject:
   - component: {fileID: 632693818}
   - component: {fileID: 632693819}
   - component: {fileID: 632693820}
+  - component: {fileID: 632693821}
   m_Layer: 0
   m_Name: BridgeTrigger
   m_TagString: Untagged
@@ -34178,7 +34179,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 632693811}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 868fe966b311a464d99db9ca8fee1b26, type: 2}
   m_CullingMode: 0
@@ -34354,6 +34355,20 @@ MonoBehaviour:
   line: {fileID: 178240347}
   pathHeightOffset: 0.3
   DrawUpdateSpeed: 0.2
+--- !u!114 &632693821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632693811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f2b04ad4bd7cd045b85fbfade8ec8be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetSceneName: Scene2
+  delayBeforeJump: 0.5
 --- !u!1001 &632944156
 PrefabInstance:
   m_ObjectHideFlags: 0
