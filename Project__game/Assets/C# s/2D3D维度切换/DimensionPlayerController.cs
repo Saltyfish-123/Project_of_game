@@ -26,6 +26,20 @@ public class DimensionPlayerController : MonoBehaviour
     
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+        if (Cursor.lockState == CursorLockMode.Locked && Cursor.visible == false)
+        {
+            if (Input.GetKeyDown(KeyCode.V))
+            {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+            }
+        }
+
         var h = Input.GetAxis("Horizontal");
         var v= Input.GetAxis("Vertical");
         var movement = Vector3.zero;
