@@ -38341,7 +38341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32890649e36b2464abd1b1e408850515, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleMessage: "\u5728\u8FD9\u91CC\u5DE6\u8F6C..."
+  subtitleMessage: "\u5728\u8FD9\u91CC\u53F3\u8F6C..."
   displayTime: 3
   fadeInDuration: 0.5
   fadeOutDuration: 0.7
