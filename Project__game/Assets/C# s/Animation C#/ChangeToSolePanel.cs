@@ -15,7 +15,7 @@ public class ChangeToSolePanel : MonoBehaviour
         if (!isSole && Input.GetKeyDown(KeyCode.X))
         {
             SoleCamera.SetActive(true);
-            PlayerCamera.SetActive(false);
+            //PlayerCamera.SetActive(false);
             isSole = true;
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
