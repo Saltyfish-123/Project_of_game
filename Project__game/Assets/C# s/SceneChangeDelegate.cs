@@ -39,7 +39,7 @@ public class SceneChangeDelegate : MonoBehaviour
         if (progressText != null) progressText.gameObject.SetActive(false);
     }
 
-///summary下面是AI
+
     //异步加载核心（协程），参数：目标场景名
     public IEnumerator TriggerSceneChangeAsync(string sceneName)
     {
@@ -60,7 +60,7 @@ public class SceneChangeDelegate : MonoBehaviour
 
         //3.开始异步加载场景
         AsyncOperation asyncOp = SceneManager.LoadSceneAsync(sceneName);
-        asyncOp.allowSceneActivation = false; // 禁止自动激活场景（加载完手动激活）
+        asyncOp.allowSceneActivation = false; // 禁止自动激活场景
 
         //4.循环更新加载进度
         while (asyncOp.progress < 0.9f) //0.9=加载完成，1.0=激活场景
@@ -74,10 +74,10 @@ public class SceneChangeDelegate : MonoBehaviour
             if (loadSlider != null) loadSlider.value = showProgress;
             if (progressText != null) progressText.text = $"加载中：{(int)(showProgress * 100)}%";
 
-            yield return null; // 每帧更新，不卡主线程
+            yield return null; // 每帧更新
         }
 
-        //5.加载完成（补全进度为100%）
+        //5.加载完成
         OnLoadProgress?.Invoke(1);
         if (loadSlider != null) loadSlider.value = 1;
         if (progressText != null) progressText.text = "加载完成：100%";
@@ -87,7 +87,7 @@ public class SceneChangeDelegate : MonoBehaviour
         asyncOp.allowSceneActivation = true;
     }
 
-    // 移除委托方法（防止重复执行/内存泄漏
+    // 移除委托方法
     public static void RemoveSceneChangeMethod(SceneChangeAction method)
     {
         OnSceneChange -= method;

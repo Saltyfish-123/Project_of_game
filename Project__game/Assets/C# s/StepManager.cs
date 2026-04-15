@@ -1,5 +1,7 @@
 using UnityEngine;
-
+/// <summary>
+/// / AI 辅助生成：
+/// </summary>
 public class StepManager : MonoBehaviour
 {
     // 单例实例

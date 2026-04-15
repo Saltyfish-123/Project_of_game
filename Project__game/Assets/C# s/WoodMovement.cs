@@ -1,5 +1,7 @@
 using UnityEngine;
-
+/// <summary>
+/// AI辅助生成
+/// </summary>
 public class WoodMovement : MonoBehaviour
 {
     [Header("移动设置")]

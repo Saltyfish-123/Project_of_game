@@ -3,8 +3,8 @@ using UnityEngine;
 public class CharacterPlatform : MonoBehaviour
 {
     [Header("配置")]
-    public string characterName; // 字的内容（如“定”“基”）
-    public Material glowMaterial; // 发光材质（需提前准备）
+    public string characterName; // 字的内容
+    public Material glowMaterial; // 发光材质
     public float glowDuration = 0.5f; // 发光持续时间
 
     private Renderer rend;
@@ -16,11 +16,11 @@ public class CharacterPlatform : MonoBehaviour
         rend = GetComponent<Renderer>();
         if (rend != null)
         {
-            originalMaterial = rend.material; // 保存原始材质
+            originalMaterial = rend.material;
         }
     }
 
-    // 碰撞触发（进入时）
+    // 碰撞触发
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player") && !isGlowing)
@@ -32,7 +32,7 @@ public class CharacterPlatform : MonoBehaviour
             {
                 // 发光效果
                 Glow();
-                // 如果是最后一步（桥），延迟跳转
+                // 是最后一步，延迟跳转
                 if (characterName == "桥")
                 {
                     Invoke(nameof(JumpToNextScene), glowDuration + 0.2f);
@@ -40,7 +40,7 @@ public class CharacterPlatform : MonoBehaviour
             }
             else
             {
-                // 顺序错误，可添加错误反馈（如红色闪烁）
+                // 顺序错误
                 Debug.Log("顺序错误！");
             }
         }
@@ -57,7 +57,7 @@ public class CharacterPlatform : MonoBehaviour
         }
     }
 
-    // 恢复原始材质
+   
     void ResetMaterial()
     {
         if (rend != null && originalMaterial != null)
@@ -70,7 +70,7 @@ public class CharacterPlatform : MonoBehaviour
     // 跳转到下一关
     void JumpToNextScene()
     {
-        // 替换为你的下一关场景名
+        
         UnityEngine.SceneManagement.SceneManager.LoadScene("Scene1");
     }
 }
