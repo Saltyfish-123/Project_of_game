@@ -434,7 +434,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -26.074}
+  m_AnchoredPosition: {x: 1, y: -56}
   m_SizeDelta: {x: 160, y: 52.1489}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &114037857
@@ -1092,6 +1092,7 @@ GameObject:
   - component: {fileID: 566423592}
   - component: {fileID: 566423590}
   - component: {fileID: 566423593}
+  - component: {fileID: 566423594}
   m_Layer: 5
   m_Name: "\u9000\u51FA"
   m_TagString: Untagged
@@ -1115,7 +1116,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1, y: -166.74667}
+  m_AnchoredPosition: {x: -1, y: -286.9}
   m_SizeDelta: {x: 156, y: 51.8915}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &566423590
@@ -1162,13 +1163,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 566423588}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 566423594}
+        m_TargetAssemblyTypeName: QuitGame, Assembly-CSharp
+        m_MethodName: ExitGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1212,6 +1213,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &566423594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566423588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbba5ee551a9a5d4ca33978764c32169, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &646597089
 GameObject:
   m_ObjectHideFlags: 0
@@ -3104,7 +3117,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000028133, y: -97}
+  m_AnchoredPosition: {x: 0.000028133, y: -177.3}
   m_SizeDelta: {x: 144.9726, y: 47.2367}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1894667811

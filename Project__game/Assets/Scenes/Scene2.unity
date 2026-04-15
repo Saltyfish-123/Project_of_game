@@ -6168,7 +6168,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "\u705E\u6865\u7ECF\u4FEE\u7F2E\u4E00\u65B0\n\u6865\u4F53\u575A\u5B9E\u7A33\u56FA,\u6865\u9762\u5E73\u6574\u901A\u7545,\u5F80\u6765\u8F66\u9A6C\u884C\u4EBA\u518D\u65E0\u584C\u9677\u6E7F\u6ED1\u4E4B\u9669,\u6CB3\u9053\u901A\u884C\u65E0\u963B,\u5546\u65C5\u7EDC\u7ECE\u4E0D\u7EDD,\u57CE\u4E1C\u8D38\u6613\u6108\u53D1\u5174\u76DB,\u767E\u59D3\u51FA\u884C\u5B89\u7A33\u4FBF\u5229,\u57CE\u90CA\u7530\u5E84
+    \u9A7F\u9986 \u6C11\u5C45\u7686\u56E0\u6865\u8DEF\u7545\u901A\u800C\u4EF7\u503C\u500D\u589E,\u6C11\u751F\u5B89\u4E50,\u5E02\u4E95\u7E41\u534E,\u56DB\u65B9\u53D7\u76CA,\u8FD9\u4FBF\u662F\u4F60\u4FEE\u8865\u705E\u6865\u6240\u5F97\u7684\u6700\u5B9E\u5728\u529F\u7EE9\u4E0E\u5609\u5956\r.\n
+    \r\n\u6B64\u6865\u81EA\u5EFA\u6210\u81F3\u4ECA,\u5386\u7ECF\u5343\u8F7D\u98CE\u96E8,\u627F\u8F7D\u65E0\u6570\u5174\u8870\u79BB\u5408,\u5E76\u975E\u5BFB\u5E38\u6CB3\u6865\u53EF\u6BD4,\u65E2\u7136\u4F60\u4EB2\u624B\u62A4\u5176\u91CD\u83B7\u65B0\u751F,\u4E0D\u59A8\u9759\u5FC3\u4E86\u89E3\u4E00\u756A\u8FD9\u705E\u6865\u7684\u524D\u4E16\u4ECA\u751F"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7c62af44c30a71242853d43fa3b14c46, type: 2}
   m_sharedMaterial: {fileID: 4857816227383430556, guid: 7c62af44c30a71242853d43fa3b14c46, type: 2}
@@ -6195,10 +6197,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 57.45
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
