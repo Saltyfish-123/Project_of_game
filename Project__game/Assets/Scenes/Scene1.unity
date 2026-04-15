@@ -3737,7 +3737,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32890649e36b2464abd1b1e408850515, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleMessage: "\u8DCB\u6D89\u4E00\u5929\u603B\u7B97\u5230\u4EAC\u57CE\u4E86......"
+  subtitleMessage: "\u8DCB\u6D89\u4E00\u5929\u603B\u7B97\u5230\u957F\u5B89\u4E86......"
   displayTime: 3
   fadeInDuration: 0.5
   fadeOutDuration: 0.7
@@ -5119,7 +5119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32890649e36b2464abd1b1e408850515, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  subtitleMessage: "\u5C0F\u59D1\u5A18\uFF0C\u6CBF\u7740\u8FD9\u6761\u8DEF\u76F4\u8D70\uFF0C\u5C94\u8DEF\u5DE6\u8F6C\u5C31\u5230\u4E86"
+  subtitleMessage: "\u5C0F\u59D1\u5A18\uFF0C\u6CBF\u7740\u8FD9\u6761\u8DEF\u76F4\u8D70\uFF0C\u5C94\u8DEF\u53F3\u8F6C\u5C31\u5230\u4E86"
   displayTime: 1
   fadeInDuration: 0.5
   fadeOutDuration: 0.7
