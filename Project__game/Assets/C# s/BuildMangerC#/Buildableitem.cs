@@ -292,3 +292,4 @@ public class BuildableItem : MonoBehaviour
         }
     }
 }
+//AI辅助生成:Hunyuan
