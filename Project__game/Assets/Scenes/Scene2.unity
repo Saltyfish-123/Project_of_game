@@ -1006,9 +1006,9 @@ MonoBehaviour:
   - {fileID: 3323490313352772139, guid: 25f6f2fd1270d8248baccb2c34a0ed75, type: 3}
   - {fileID: 6943680576164050452, guid: d4d04e546b2667f4585140cc3c696193, type: 3}
   - {fileID: 4213977808714174224, guid: 55c24d316033e1d4d9c7501cfc29ed1f, type: 3}
-  - {fileID: 2569028991721556974, guid: 583ffd7a09ce65c49b4b603136b1f91a, type: 3}
-  - {fileID: 247669566071899508, guid: 596443f186a70d34286ee0ed7e592476, type: 3}
-  - {fileID: 5829438450114867079, guid: 332ce801e46dc2842ab6902c64a3837d, type: 3}
+  - {fileID: 4213977808714174224, guid: 55c24d316033e1d4d9c7501cfc29ed1f, type: 3}
+  - {fileID: 4213977808714174224, guid: 55c24d316033e1d4d9c7501cfc29ed1f, type: 3}
+  - {fileID: 4213977808714174224, guid: 55c24d316033e1d4d9c7501cfc29ed1f, type: 3}
   snapPointsForBuildQueue:
   - buildingTarget: {fileID: 8029391782407664133}
     snapType: "\u6865\u58A9"

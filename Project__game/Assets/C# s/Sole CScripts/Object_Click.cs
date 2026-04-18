@@ -7,12 +7,15 @@ public class Object_Click : MonoBehaviour
     [SerializeField] GameObject Panel_inform;
     [SerializeField] private int id_self;
     [SerializeField] private int group_self;
-
+    [SerializeField] GameObject panel_inform;
     private void OnMouseDown()
     {
-        Debug.Log("鼠标点击了下来触发了事件");
-        ShowInfo();
-        Panel_inform.SetActive(true);
+        if (!panel_inform.activeSelf)
+        {
+            Debug.Log("鼠标点击了下来触发了事件");
+            ShowInfo();
+            Panel_inform.SetActive(true);
+        }
     }
 
     public void ShowInfo()

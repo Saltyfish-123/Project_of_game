@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 23101241}
   - component: {fileID: 23101240}
   - component: {fileID: 23101243}
+  - component: {fileID: 23101244}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -233,6 +234,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 23101240}
+--- !u!114 &23101244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23101238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ecf47151aef6d841955a13000f962c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 23101240}
 --- !u!1 &26001009
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,8 +539,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u5185\u5BB9\u4ECB\u7ECD"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a458b56808658914593cbc96ef53d82d, type: 2}
-  m_sharedMaterial: {fileID: 474973493281984319, guid: a458b56808658914593cbc96ef53d82d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 55ac603d556a1fb4d9fc2a59d10009f5, type: 2}
+  m_sharedMaterial: {fileID: 4666358469932461984, guid: 55ac603d556a1fb4d9fc2a59d10009f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -550,7 +564,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -589,7 +603,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &73688987
@@ -1302,6 +1316,7 @@ MonoBehaviour:
   Panel_inform: {fileID: 1544982784}
   id_self: 4
   group_self: 1
+  panel_inform: {fileID: 0}
 --- !u!4 &169643969 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: bfa5a494f4475f94fb8f79ee5835d41b, type: 3}
@@ -1592,7 +1607,7 @@ MonoBehaviour:
   m_text: "\u7269\u54C1\u540D\u79F0"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7c62af44c30a71242853d43fa3b14c46, type: 2}
-  m_sharedMaterial: {fileID: 474973493281984319, guid: a458b56808658914593cbc96ef53d82d, type: 2}
+  m_sharedMaterial: {fileID: 4857816227383430556, guid: 7c62af44c30a71242853d43fa3b14c46, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1616,7 +1631,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68.45
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4866,6 +4881,7 @@ MonoBehaviour:
   Panel_inform: {fileID: 1544982784}
   id_self: 4
   group_self: 2
+  panel_inform: {fileID: 1544982784}
 --- !u!1 &1095825472
 GameObject:
   m_ObjectHideFlags: 0
@@ -8203,6 +8219,7 @@ MonoBehaviour:
   Panel_inform: {fileID: 1544982784}
   id_self: 3
   group_self: 2
+  panel_inform: {fileID: 1544982784}
 --- !u!65 &1950775444
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8684,6 +8701,7 @@ MonoBehaviour:
   Panel_inform: {fileID: 1544982784}
   id_self: 2
   group_self: 1
+  panel_inform: {fileID: 1544982784}
 --- !u!65 &2035561774
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9367,6 +9385,7 @@ MonoBehaviour:
   Panel_inform: {fileID: 1544982784}
   id_self: 1
   group_self: 1
+  panel_inform: {fileID: 1544982784}
 --- !u!65 &2133991058
 BoxCollider:
   m_ObjectHideFlags: 0
